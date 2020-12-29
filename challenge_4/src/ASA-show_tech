@@ -1,0 +1,2756 @@
+Cisco Adaptive Security Appliance Software Version 9.14(1)6
+SSP Operating System Version 2.8(1.106)
+Device Manager Version 7.14(1)
+
+Compiled on Tue 28-Apr-20 08:50 PDT by builders
+System image file is "boot:/asa9141-6-smp-k8.bin"
+Config file at boot was "startup-config"
+
+ciscoasa up 1 hour 39 mins
+
+Hardware:   ASAv, 32256 MB RAM, CPU Xeon E5 series 2200 MHz, 1 CPU (16 cores)
+Internal ATA Compact Flash, 1024MB
+Slot 1: ATA Compact Flash, 8192MB
+BIOS Flash Firmware Hub @ 0x1, 0KB
+
+
+ 0: Ext: Management0/0       : address is 0050.56b3.14f0, irq 10
+ 1: Ext: GigabitEthernet0/0  : address is 0050.5696.c0cd, irq 7
+ 2: Ext: GigabitEthernet0/1  : address is 0050.5696.6bd2, irq 9
+ 3: Ext: GigabitEthernet0/2  : address is 0050.5696.fafd, irq 11
+ 4: Int: Internal-Data0/0    : address is 0000.0100.0001, irq 0
+
+License mode: Smart Licensing
+ASAv Platform License State: Unlicensed
+No active entitlement: no feature tier and no throughput level configured
+Firewall throughput limited to 100 Kbps
+
+Licensed features for this platform:
+Maximum VLANs                     : 1024           
+Inside Hosts                      : Unlimited      
+Failover                          : Active/Active  
+Encryption-DES                    : Enabled        
+Encryption-3DES-AES               : Enabled        
+Security Contexts                 : 2              
+Carrier                           : Disabled       
+AnyConnect Premium Peers          : 2              
+AnyConnect Essentials             : Disabled       
+Other VPN Peers                   : 20000          
+Total VPN Peers                   : 20000          
+AnyConnect for Mobile             : Disabled       
+AnyConnect for Cisco VPN Phone    : Disabled       
+Advanced Endpoint Assessment      : Disabled       
+Shared License                    : Disabled       
+Total TLS Proxy Sessions          : 2              
+Botnet Traffic Filter             : Enabled        
+Cluster                           : Disabled       
+
+Serial Number: 9AL0MA5QEKM
+
+Image type          : Release
+Key version         : A
+
+Configuration last modified by enable_15 at 19:04:23.819 UTC Sat Dec 26 2020
+
+------------------ show tech-support license ------------------
+
+
+Smart Licensing Tech Support info
+
+Smart Licensing Status
+======================
+
+Smart Licensing is ENABLED
+
+Registration:
+  Status: UNREGISTERED
+  Export-Controlled Functionality: NOT ALLOWED
+
+License Authorization: 
+  Status: No Licenses in Use
+
+Export Authorization Key:
+  Features Authorized:
+    <none>
+
+Utility:
+  Status: DISABLED
+
+Data Privacy:
+  Sending Hostname: yes
+    Callhome hostname privacy: DISABLED
+    Smart Licensing hostname privacy: DISABLED
+  Version privacy: DISABLED
+
+Transport:
+  Type: Callhome
+
+Evaluation Period:
+  Evaluation Mode: Not In Use
+  Evaluation Period Remaining: 90 days, 0 hours, 0 minutes, 0 seconds
+
+License Usage
+=============
+No licenses in use
+
+Product Information
+===================
+UDI: PID:ASAv,SN:9AL0MA5QEKM
+
+Agent Version
+=============
+Smart Agent for Licensing: 4.9.3_rel/34
+
+Upcoming Scheduled Jobs
+=======================
+Current time: Dec 26 2020 19:45:17 UTC
+Daily: Dec 27 2020 18:06:01 UTC (22 hours, 20 minutes, 44 seconds remaining)
+Init Flag Check: Not Available
+Reservation configuration mismatch between nodes in HA mode: Jan 01 1970 00:00:00 UTC (213503982315978 days, 11 hours, 14 minutes, 59 seconds remaining)
+
+License Certificates
+====================
+Production Cert: True
+Not registered. No certificates installed
+
+HA Info
+==========
+RP Role: Active
+Chassis Role: Active
+Behavior Role: Active
+RMF: False
+CF: False
+CF State: Invalid
+Message Flow Allowed: True
+
+Reservation Info
+================ 
+License reservation: DISABLED
+
+Other Info
+==========
+Software ID: regid.2014-07.com.cisco.ASA,1.0_536ec4ff-199b-4373-a1ba-db3f7144768c
+Agent State: unidentified
+TS enable: True
+Transport: Callhome
+Locale: en_US.UTF-8
+Debug flags: 0x0
+Privacy Send Hostname: True
+Privacy Send IP: True
+Build type:: Production
+sizeof(char)  : 1
+sizeof(int)   : 4
+sizeof(long)  : 8
+sizeof(char *): 8
+sizeof(time_t): 8
+sizeof(size_t): 8
+Endian: Little
+Write Erase Occurred: False
+XOS version: 8.0.0.0
+Config Persist Received: True
+Message Version: 1.3
+connect_info.name: <empty>
+connect_info.version: <empty>
+connect_info.additional: <empty>
+connect_info.prod: False
+connect_info.capabilities: <empty>
+agent.capabilities: UTILITY, DLC, AppHA, MULTITIER, EXPORT_2, OK_TRY_AGAIN
+SmartAgentClientWaitForServer: 2000
+SmartAgentCmReTrySend: False
+SmartAgentClientIsUnified: True
+SmartAgentCmClient: True
+SmartAgentClientName: UnifiedClient
+builtInEncryption: True
+SmartAgentFederalLicense: False
+SmartAgent_Crypto_Exit_CB: 0x55816d2a98a0
+SmartAgent_Crypto_Start_CB: 0x55816d2a94b0
+SmartAgentMultiTenant: False
+attr365DayEvalSyslog: False
+checkPointWriteOnly: False
+SmartAgentDelayCertValidation: False
+enableByDefault: False
+conversionAutomatic: True
+conversionAllowed: False
+storageEncryptDisable: False
+storageLoadUnencryptedDisable: False
+TSPluginDisable: False
+bypassUDICheck: False
+loggingAddTStamp: True
+loggingAddTid: True
+HighAvailabilityOverrideEvent: UnknownPlatformEvent
+platformIndependentOverrideEvent: UnknownPlatformEvent
+platformOverrideEvent: UnknownPlatformEvent
+WaitForHaRole: False
+standbyIsHot: False
+chkPtType: 0
+delayCommInit: False
+roleByEvent: False
+maxTraceLength: 256
+traceAlwaysOn: False
+debugFlags: 0
+Event log max size: 0 KB
+Event log current size: 0 KB
+
+Platform Provided Mapping Table
+===============================
+<empty>
+
+
+Root CA Certificate: Production
+
+------------------ show vm ------------------
+
+
+Virtual Platform Resource Status
+--------------------------------
+Number of vCPUs           :  16
+Processor Memory          :  32256 MB
+Hypervisor                :  VMware
+
+Virtual Platform Resource Limits
+--------------------------------
+Connections               :  4000000
+VLANs                     :  1024
+AnyConnect Premium Peers  :  20000
+TLS Proxy Sessions        :  20000
+
+------------------ show disk0: controller ------------------
+
+
+Flash Model: VMware Virtual IDE CDROM Drive
+
+
+------------------ dir all-filesystems ------------------
+
+
+Directory of disk0:/
+
+25     drwx  4096         18:06:01 Dec 26 2020  smart-log
+23     drwx  4096         18:05:02 Dec 26 2020  log
+59     drwx  4096         18:06:05 Dec 26 2020  coredumpinfo
+
+0 file(s) total size: 0 bytes
+8571076608 bytes total (8549101568 bytes free/99% free)
+
+Directory of boot:/
+
+64     -rwx  105172992    08:51:32 Apr 28 2020  asa9141-6-smp-k8.bin
+65     -rwx  35744052     08:51:32 Apr 28 2020  asdm-714148.bin
+66     -rwx  68684112     08:51:32 Apr 28 2020  asa-restapi-714142-lfbff-k8.SPA
+
+3 file(s) total size: 209601156 bytes
+534495232 bytes total (324722688 bytes free/60% free)
+
+------------------ show clock ------------------
+
+19:45:18.299 UTC Sat Dec 26 2020
+
+------------------ show crashinfo ------------------
+
+
+------------------ show logging buffered ------------------
+
+
+------------------ show module ------------------
+
+
+Mod  Card Type                                    Model              Serial No. 
+---- -------------------------------------------- ------------------ -----------
+   0 ASAv Adaptive Security Virtual Appliance     ASAv               9AL0MA5QEKM
+
+Mod  MAC Address Range                 Hw Version   Fw Version   Sw Version     
+---- --------------------------------- ------------ ------------ ---------------
+   0 none                                                        9.14(1)6
+
+Mod  SSM Application Name           Status           SSM Application Version
+---- ------------------------------ ---------------- --------------------------
+
+Mod  Status             Data Plane Status     Compatibility
+---- ------------------ --------------------- -------------
+   0 Up Sys             Not Applicable        
+
+
+------------------ show module 0 detail ------------------
+
+Card Type:          ASAv Adaptive Security Virtual Appliance
+Model:              ASAv
+Hardware version:   
+Serial Number:      9AL0MA5QEKM
+Firmware version:   
+Software version:   9.14(1)6
+MAC Address Range:  none
+Data Plane Status:  Not Applicable
+Console session:    Not ready
+Status:             Up Sys
+
+------------------ show memory ------------------
+
+Free memory:       30410935232 bytes (91%)
+Used memory:        2938844224 bytes ( 9%)
+-------------     ------------------
+Total memory:      33349779456 bytes (100%)
+
+Virtual platform memory
+-----------------------
+Provisioned       32256 MB 
+
+Note: Free memory is the free system memory. Additional memory may
+      be available from memory pools internal to the firewall process.
+      Use 'show memory detail' to see this information, but use it
+      with care since it may cause CPU hogs and packet loss under load.
+
+------------------ show memory detail ------------------
+
+
+Heap Memory:
+   Free Memory:
+      Global Shared Pool:                    3647552 bytes (  0% )
+      Message Layer Pool:                    8193488 bytes (  0% )
+      System:                            30407278592 bytes ( 91% )
+   Used Memory:
+      Global Shared Pool:                  869386176 bytes (  3% )
+      Reserved for messaging:                 195120 bytes (  0% )
+      MMAP usage:                          142040612 bytes (  0% )
+      System Overhead:                    1919029724 bytes (  6% )
+-------------------------------------     ----------------
+   Total Memory:                         33349779456 bytes ( 100% )
+
+Warning:  The information reported here is computationally expensive to
+          determine, and may result in CPU hogs and performance impact.
+
+-----------------------------------------------------------------------
+
+Virtual platform memory
+-----------------------
+Provisioned       32256 MB 
+
+MEMPOOL_MSGLYR POOL STATS:
+
+Non-mmapped bytes allocated =      8388608
+Number of free chunks       =            5
+Number of mmapped regions   =            0
+Mmapped bytes allocated     =            0
+Max memory footprint        =      8388608
+Keepcost                    =      8192608
+Max contiguous free mem     =      8192608
+Allocated memory in use     =       195120
+Free memory                 =      8193488
+
+----- fragmented memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+           32             1             32
+           96             1             96**
+          112             1            112
+          384             1            416
+      8192608             1        8192608*
+
+*  - top most releasable chunk.
+** - contiguous memory on top of heap.
+
+
+----- allocated memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+           80            15           1200
+           96             8            768
+          112             5            560
+          128            10           1280
+          144            16           2304
+          160             5            800
+          176            11           1936
+          192             1            192
+          208             1            208
+          256            18           4608
+          512             9           4608
+         1024            17          17408
+         1536             7          10752
+         4096             1           4096
+         8192             2          16384
+        16384             7         114688
+
+MEMPOOL_GLOBAL_SHARED POOL STATS:
+
+Non-mmapped bytes allocated =     58470400
+Number of free chunks       =          439
+Number of mmapped regions   =          768
+Mmapped bytes allocated     =    814563328
+Max memory footprint        =            0
+Keepcost                    =        30304
+Max contiguous free mem     =            0
+Allocated memory in use     =     54822848
+Free memory                 =      3647552
+
+----- fragmented memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+           32           141           4512
+           48           102           4896
+           64             2            128
+           64             7            448
+           80            16           1280
+           80             7            560
+           96            20           1920
+           96            16           1536
+          112             2            224
+          112           102          11424
+          128            36           4608
+          128             3            384
+          144             2            288
+          208             1            208
+          224             3            672
+          256             3            768
+          304             1            304
+          320             1            320
+          336             1            336
+          352             3           1056
+          368             1            368
+          464             1            464
+          480             1            480
+          544             1            544
+          560            14           7840
+          576             1            576
+          672             1            672
+          688             1            688
+          800             1            800
+          880             1            880
+          992             2           1984
+         1008             1           1008
+         1024             1           1072
+         1088             3           3360
+         1280             1           1280
+         1536             1           1552
+         1664             1           1680
+         1792             1           1824
+         1984             2           3984
+         2048             1           2048
+         2176             1           2224
+         2240             2           4560
+         3072             1           3072
+         3584             1           3584
+         4608             7          32672
+         5120             2          11216
+         5632             1           6064
+         6144             1           6352
+         6656             2          13968
+         7168             1           7520
+         8192             1           8288
+         9216             3          27744
+        16384             1          17168
+        20480             1          22288
+
+----- allocated memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+           56           321          17976
+           72          2162         155664
+           88         13944        1227072
+          104          1283         133432
+          120          1393         167160
+          136          3067         417112
+          152           419          63688
+          168           200          33600
+          184           469          86296
+          200           201          40200
+          216            95          20520
+          232           235          54520
+          248           345          85560
+          256          1506         385536
+          384           293         112512
+          512           411         210432
+          768           296         227328
+         1024          1080        1105920
+         1536          1215        1866240
+         2048           176         360448
+         3072            65         199680
+         4096          3251       13316096
+         6144           155         952320
+         8192           243        1990656
+        12288           277        3403776
+        16384           709       11616256
+        24576           112        2752512
+        32768           119        3899392
+        49152            75        3686400
+        65536           185       12124160
+        98304            91        8945664
+       131072            65        8519680
+       196608            78       15335424
+       262144            68       17825792
+       393216            96       37748736
+       524288            56       29360128
+       786432             7        5505024
+      1048576            38       39845888
+      1572864            38       59768832
+      2097152            38       79691776
+      3145728             5       15728640
+      4194304             4       16777216
+      6291456             2       12582912
+      8388608             1        8388608
+     12582912             8      100663296
+
+Summary for all pools:
+
+Non-mmapped bytes allocated =     66859008
+Number of free chunks       =          444
+Number of mmapped regions   =            0
+Mmapped bytes allocated     =    814563328
+Max memory footprint        =      8388608
+Keepcost                    =      8222912
+Allocated memory in use     =     55017968
+Free memory                 =     11841040
+
+
+------------------ show memory top-usage ------------------
+
+Hardware:   ASAv
+Cisco Adaptive Security Appliance Software Version 9.14(1)6
+ASLR enabled, text region 5599efa87000-5599f461052d
+MEMPOOL_MSGLYR pool binsize allocated byte totals:
+
+----- allocated memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+        16384             7         114688
+         1024            17          17408
+         8192             2          16384
+         1536             7          10752
+          256            18           4608
+          512             9           4608
+         4096             1           4096
+          144            16           2304
+          176            11           1936
+          128            10           1280
+
+----- Binsize PC top usage -----
+
+Binsize: 16384                  total (bytes): 114688         
+
+pc = 0x5599f20f2b15, size = 116560   , count = 7   
+
+Binsize: 1024                   total (bytes): 17408          
+
+pc = 0x5599f20f2b15, size = 18992    , count = 17  
+
+Binsize: 8192                   total (bytes): 16384          
+
+pc = 0x5599f20f2b15, size = 16400    , count = 2   
+
+Binsize: 1536                   total (bytes): 10752          
+
+pc = 0x5599f20f2b15, size = 12248    , count = 7   
+
+Binsize: 256                    total (bytes): 4608           
+
+pc = 0x5599f20f2b15, size = 3736     , count = 18  
+
+Binsize: 512                    total (bytes): 4608           
+
+pc = 0x5599f20f2b15, size = 4720     , count = 9   
+
+Binsize: 4096                   total (bytes): 4096           
+
+pc = 0x5599f20f2b15, size = 4096     , count = 1   
+
+Binsize: 144                    total (bytes): 2304           
+
+pc = 0x5599f20f2b15, size = 1040     , count = 16  
+
+Binsize: 176                    total (bytes): 1936           
+
+pc = 0x5599f20f2b15, size = 1056     , count = 11  
+
+Binsize: 128                    total (bytes): 1280           
+
+pc = 0x5599f20f2b15, size = 552      , count = 10  
+
+
+Hardware:   ASAv
+Cisco Adaptive Security Appliance Software Version 9.14(1)6
+ASLR enabled, text region 5599efa87000-5599f461052d
+MEMPOOL_GLOBAL_SHARED pool binsize allocated byte totals:
+
+----- allocated memory statistics -----
+
+ fragment size       count          total
+    (bytes)                        (bytes)
+----------------  ----------  --------------
+     12582912             8      100663296
+      2097152            38       79691776
+      1572864            38       59768832
+      1048576            38       39845888
+       393216            96       37748736
+       524288            56       29360128
+       262144            68       17825792
+      4194304             4       16777216
+      3145728             5       15728640
+       196608            78       15335424
+
+----- Binsize PC top usage -----
+
+Binsize: 12582912               total (bytes): 100663296      
+
+pc = 0x5599f0af3d5a, size = 67108608 , count = 1   
+pc = 0x5599f17f2c28, size = 29483048 , count = 1   
+pc = 0x5599f17a7a09, size = 64000040 , count = 1   
+pc = 0x5599f178d299, size = 64000040 , count = 1   
+pc = 0x5599f06804a6, size = 16960143 , count = 1   
+pc = 0x5599f15865e7, size = 64131112 , count = 1   
+pc = 0x5599f1e2adb9, size = 12582976 , count = 1   
+pc = 0x5599f30eb984, size = 67960975 , count = 1   
+
+Binsize: 2097152                total (bytes): 79691776       
+
+pc = 0x5599f11cb454, size = 2359296  , count = 1   
+pc = 0x5599f0802507, size = 2880040  , count = 1   
+pc = 0x5599f2ff28de, size = 91099616 , count = 32  
+pc = 0x5599f1433855, size = 3000280  , count = 1   
+pc = 0x5599f2ff2c2c, size = 2138323  , count = 1   
+pc = 0x5599f09bb6d0, size = 5318752  , count = 2   
+
+Binsize: 1572864                total (bytes): 59768832       
+
+pc = 0x5599f082f39a, size = 1920040  , count = 1   
+pc = 0x5599f188d9f3, size = 1600040  , count = 1   
+pc = 0x5599f06804a6, size = 3737886  , count = 2   
+pc = 0x5599f2ff28de, size = 54530528 , count = 32  
+pc = 0x5599f09bb6d0, size = 1920176  , count = 1   
+pc = 0x5599f06aa073, size = 1856000  , count = 1   
+
+Binsize: 1048576                total (bytes): 39845888       
+
+pc = 0x5599f06804a6, size = 3266477  , count = 3   
+pc = 0x5599f0b4d672, size = 5591680  , count = 5   
+pc = 0x5599f2ff28de, size = 24159961 , count = 23  
+pc = 0x5599f29e422b, size = 1048616  , count = 1   
+pc = 0x5599f11b5ec8, size = 1317752  , count = 1   
+pc = 0x5599f06b5b04, size = 1048536  , count = 1   
+pc = 0x5599f0b4dad3, size = 2236672  , count = 2   
+pc = 0x5599f2614a6b, size = 1048536  , count = 1   
+pc = 0x5599f067f447, size = 1048616  , count = 1   
+
+Binsize: 393216                 total (bytes): 37748736       
+
+pc = 0x5599f0eee68e, size = 491520   , count = 1   
+pc = 0x5599f10b1253, size = 432168   , count = 1   
+pc = 0x5599f11bba62, size = 488552   , count = 1   
+pc = 0x5599f168d6d1, size = 512008   , count = 1   
+pc = 0x5599f2ff28de, size = 20573023 , count = 49  
+pc = 0x5599f1683c69, size = 458752   , count = 1   
+pc = 0x5599f0b5a0f6, size = 393368   , count = 1   
+pc = 0x5599f25dd218, size = 14158656 , count = 36  
+pc = 0x5599f06804a6, size = 428943   , count = 1   
+pc = 0x5599f2ff2c2c, size = 1356177  , count = 3   
+pc = 0x5599f2150083, size = 520192   , count = 1   
+
+Binsize: 524288                 total (bytes): 29360128       
+
+pc = 0x5599f2ff2c2c, size = 561363   , count = 1   
+pc = 0x5599f254b6c0, size = 557056   , count = 1   
+pc = 0x5599f2ff28de, size = 32726220 , count = 52  
+pc = 0x5599f06804a6, size = 582543   , count = 1   
+pc = 0x5599f067ec43, size = 716943   , count = 1   
+
+Binsize: 262144                 total (bytes): 17825792       
+
+pc = 0x5599f0df0cc4, size = 262144   , count = 1   
+pc = 0x5599f2570112, size = 327720   , count = 1   
+pc = 0x5599f2ff28de, size = 15167188 , count = 56  
+pc = 0x5599f11ec36e, size = 320136   , count = 1   
+pc = 0x5599f0cb7535, size = 327720   , count = 1   
+pc = 0x5599f300e66a, size = 320016   , count = 1   
+pc = 0x5599f2ff2c2c, size = 945129   , count = 3   
+pc = 0x5599f188ee6e, size = 262144   , count = 1   
+pc = 0x5599f06804a6, size = 274575   , count = 1   
+pc = 0x5599f067ec43, size = 729886   , count = 2   
+
+Binsize: 4194304                total (bytes): 16777216       
+
+pc = 0x5599f0df0c53, size = 4194304  , count = 1   
+pc = 0x5599f08f0fa6, size = 4194304  , count = 1   
+pc = 0x5599f175b2c3, size = 4194304  , count = 1   
+pc = 0x5599f0b7bd9b, size = 4194383  , count = 1   
+
+Binsize: 3145728                total (bytes): 15728640       
+
+pc = 0x5599f2ff2c2c, size = 3204451  , count = 1   
+pc = 0x5599f06804a6, size = 11505069 , count = 3   
+pc = 0x5599f09bb6d0, size = 3840176  , count = 1   
+
+Binsize: 196608                 total (bytes): 15335424       
+
+pc = 0x5599f0b7274c, size = 196608   , count = 1   
+pc = 0x5599f1e34989, size = 239800   , count = 1   
+pc = 0x5599f254b438, size = 196608   , count = 1   
+pc = 0x5599f1ebc572, size = 220968   , count = 1   
+pc = 0x5599f2ff28de, size = 6529504  , count = 32  
+pc = 0x5599f1683d5e, size = 196608   , count = 1   
+pc = 0x5599f25dd218, size = 7080768  , count = 36  
+pc = 0x5599f08f0ccd, size = 215896   , count = 1   
+pc = 0x5599f2ff2c2c, size = 459198   , count = 2   
+pc = 0x5599f09bb6d0, size = 197024   , count = 1   
+pc = 0x5599f067ec43, size = 198543   , count = 1   
+
+
+
+------------------ show conn count ------------------
+
+1 in use, 3 most used
+
+------------------ show xlate count ------------------
+
+0 in use, 0 most used
+
+------------------ show vpn-sessiondb summary ------------------
+
+
+ No sessions to display.
+
+
+------------------ show ipsec stats ------------------
+
+
+IPsec Global Statistics
+-----------------------
+Active tunnels: 0
+Previous tunnels: 0
+Inbound
+    Bytes: 0
+    Decompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Replay failures: 0
+    Authentications: 0
+    Authentication failures: 0
+    Decryptions: 0
+    Decryption failures: 0
+    TFC Packets: 0
+    Decapsulated fragments needing reassembly: 0
+    Valid ICMP Errors rcvd: 0
+    Invalid ICMP Errors rcvd: 0
+Outbound
+    Bytes: 0
+    Uncompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Authentications: 0
+    Authentication failures: 0
+    Encryptions: 0
+    Encryption failures: 0
+    TFC Packets: 0
+    Fragmentation successes: 0
+        Pre-fragmentation successses: 0
+        Post-fragmentation successes: 0
+    Fragmentation failures: 0
+        Pre-fragmentation failures: 0
+        Post-fragmentation failures: 0
+    Fragments created: 0
+    PMTUs sent: 0
+    PMTUs rcvd: 0
+Protocol failures: 0
+Missing SA failures: 0
+System capacity failures: 0
+Inbound SA delete requests: 0
+Outbound SA delete requests: 0
+Inbound SA destroy calls: 0
+Outbound SA destroy calls: 0
+
+
+------------------ show crypto ikev1 stats ------------------
+
+
+Global IKEv1 Statistics
+  Active Tunnels:              0
+  Previous Tunnels:            0
+  In Octets:                   0
+  In Packets:                  0
+  In Drop Packets:             0
+  In Notifys:                  0
+  In P2 Exchanges:             0
+  In P2 Exchange Invalids:     0
+  In P2 Exchange Rejects:      0
+  In P2 Delay Ex Rejects:      0
+  In P2 Sa Delete Requests:    0
+  In P2 Dup Remote Proxy:      0
+  Out Octets:                  0
+  Out Packets:                 0
+  Out Drop Packets:            0
+  Out Notifys:                 0
+  Out P2 Exchanges:            0
+  Out P2 Exchange Invalids:    0
+  Out P2 Exchange Rejects:     0
+  Out P2 Sa Delete Requests:   0
+  Initiator Tunnels:           0
+  Initiator Fails:             0
+  Responder Fails:             0
+  System Capacity Fails:       0
+  Auth Fails:                  0
+  Decrypt Fails:               0
+  Hash Valid Fails:            0
+  No Sa Fails:                 0
+
+------------------ show ssl objects ------------------
+
+SSL object statistics:
+  BIO: active: 2, peak: 2, total: 2
+  SSL_CTX: active: 5, peak: 5, total: 5
+  X509_STORE: active: 6, peak: 7, total: 18
+  RSA: active: 2, peak: 3, total: 29
+  DH: active: 4, peak: 5, total: 44
+  ENGINE: active: 3, peak: 3, total: 3
+  X509: active: 7, peak: 7, total: 15
+  ECDSA: active: 0, peak: 1, total: 24
+29 active objects, 140 total objects
+
+------------------ show ssl errors ------------------
+
+error:0B08D07B:x509 certificate routines:X509_TRUST_set:invalid trust@x509_trs.c:177
+error:0B08D07B:x509 certificate routines:X509_TRUST_set:invalid trust@x509_trs.c:177
+error:0B08D07B:x509 certificate routines:X509_TRUST_set:invalid trust@x509_trs.c:177
+error:0B08D07B:x509 certificate routines:X509_TRUST_set:invalid trust@x509_trs.c:177
+error:0407109F:rsa routines:RSA_padding_check_PKCS1_type_2:pkcs decoding error@rsa_pk1.c:307
+error:0B08D07B:x509 certificate routines:X509_TRUST_set:invalid trust@x509_trs.c:177
+
+------------------ show ipsec stats ------------------
+
+
+IPsec Global Statistics
+-----------------------
+Active tunnels: 0
+Previous tunnels: 0
+Inbound
+    Bytes: 0
+    Decompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Replay failures: 0
+    Authentications: 0
+    Authentication failures: 0
+    Decryptions: 0
+    Decryption failures: 0
+    TFC Packets: 0
+    Decapsulated fragments needing reassembly: 0
+    Valid ICMP Errors rcvd: 0
+    Invalid ICMP Errors rcvd: 0
+Outbound
+    Bytes: 0
+    Uncompressed bytes: 0
+    Packets: 0
+    Dropped packets: 0
+    Authentications: 0
+    Authentication failures: 0
+    Encryptions: 0
+    Encryption failures: 0
+    TFC Packets: 0
+    Fragmentation successes: 0
+        Pre-fragmentation successses: 0
+        Post-fragmentation successes: 0
+    Fragmentation failures: 0
+        Pre-fragmentation failures: 0
+        Post-fragmentation failures: 0
+    Fragments created: 0
+    PMTUs sent: 0
+    PMTUs rcvd: 0
+Protocol failures: 0
+Missing SA failures: 0
+System capacity failures: 0
+Inbound SA delete requests: 0
+Outbound SA delete requests: 0
+Inbound SA destroy calls: 0
+Outbound SA destroy calls: 0
+
+
+------------------ show crypto ikev1 stats ------------------
+
+
+Global IKEv1 Statistics
+  Active Tunnels:              0
+  Previous Tunnels:            0
+  In Octets:                   0
+  In Packets:                  0
+  In Drop Packets:             0
+  In Notifys:                  0
+  In P2 Exchanges:             0
+  In P2 Exchange Invalids:     0
+  In P2 Exchange Rejects:      0
+  In P2 Delay Ex Rejects:      0
+  In P2 Sa Delete Requests:    0
+  In P2 Dup Remote Proxy:      0
+  Out Octets:                  0
+  Out Packets:                 0
+  Out Drop Packets:            0
+  Out Notifys:                 0
+  Out P2 Exchanges:            0
+  Out P2 Exchange Invalids:    0
+  Out P2 Exchange Rejects:     0
+  Out P2 Sa Delete Requests:   0
+  Initiator Tunnels:           0
+  Initiator Fails:             0
+  Responder Fails:             0
+  System Capacity Fails:       0
+  Auth Fails:                  0
+  Decrypt Fails:               0
+  Hash Valid Fails:            0
+  No Sa Fails:                 0
+
+------------------ show crypto ikev2 stats ------------------
+
+
+Global IKEv2 Statistics
+Active Tunnels: 0
+Previous Tunnels: 0
+In Octets: 0
+In Packets: 0
+In Drop Packets: 0
+In Drop Fragments: 0
+In Notifys: 0
+In Child SA Exchanges: 0
+In Child SA Exchange Invalids: 0
+In Child SA Exchange Rejects: 0
+In Child SA Sa Delete Requests: 0
+Out Octets: 0
+Out Packets: 0
+Out Drop Packets: 0
+Out Drop Fragments: 0
+Out Notifys: 0
+Out Child SA Exchanges: 0
+Out Child SA Exchange Invalids: 0
+Out Child SA Exchange Rejects: 0
+Out Child SA Sa Delete Requests: 0
+Initiator Tunnels: 0
+Initiator Fails: 0
+Responder Fails: 0
+System Capacity Fails: 0
+Auth Fails: 0
+Decrypt Fails: 0
+Hash Valid Fails: 0
+No Sa Fails: 0
+
+------------------ show crypto ca certificates ------------------
+
+CA Certificate
+  Status: Available
+  Certificate Serial Number: 0509
+  Certificate Usage: General Purpose
+  Public Key Type: RSA (4096 bits)
+  Signature Algorithm: SHA1 with RSA Encryption
+  Issuer Name: 
+    cn=QuoVadis Root CA 2
+    o=QuoVadis Limited
+    c=BM
+  Subject Name: 
+    cn=QuoVadis Root CA 2
+    o=QuoVadis Limited
+    c=BM
+  Validity Date: 
+    start date: 18:27:00 UTC Nov 24 2006
+    end   date: 18:23:33 UTC Nov 24 2031
+  Storage: config
+  Associated Trustpoints: _SmartCallHome_ServerCA 
+
+
+------------------ show aaa-server ------------------
+
+Server Group:	 LOCAL
+Server Protocol: Local database
+Server Address:	 None
+Server port:	 None
+Server status:	 ACTIVE, Last transaction at 19:45:10 UTC Sat Dec 26 2020
+Number of pending requests		0
+Average round trip time			0ms
+Number of authentication requests	22
+Number of authorization requests	0
+Number of accounting requests		0
+Number of retransmissions		0
+Number of accepts			18
+Number of rejects			4
+Number of challenges			0
+Number of malformed responses		0
+Number of bad authenticators		0
+Number of timeouts			0
+Number of unrecognized responses	0
+
+
+------------------ show crypto ikev2 stats ------------------
+
+
+Global IKEv2 Statistics
+Active Tunnels: 0
+Previous Tunnels: 0
+In Octets: 0
+In Packets: 0
+In Drop Packets: 0
+In Drop Fragments: 0
+In Notifys: 0
+In Child SA Exchanges: 0
+In Child SA Exchange Invalids: 0
+In Child SA Exchange Rejects: 0
+In Child SA Sa Delete Requests: 0
+Out Octets: 0
+Out Packets: 0
+Out Drop Packets: 0
+Out Drop Fragments: 0
+Out Notifys: 0
+Out Child SA Exchanges: 0
+Out Child SA Exchange Invalids: 0
+Out Child SA Exchange Rejects: 0
+Out Child SA Sa Delete Requests: 0
+Initiator Tunnels: 0
+Initiator Fails: 0
+Responder Fails: 0
+System Capacity Fails: 0
+Auth Fails: 0
+Decrypt Fails: 0
+Hash Valid Fails: 0
+No Sa Fails: 0
+
+------------------ show blocks ------------------
+
+  SIZE    MAX    LOW    CNT
+     0   1450   1449   1450
+     4    100    100    100
+    80   1000    999   1000
+   256   4148   4141   4143
+  1550   6174   6142   6151
+  2048   2100   2100   2100
+  2560    164    164    164
+  4096    100    100    100
+  8192    100    100    100
+  9344    100    100    100
+ 16384    100    100    100
+ 65536     16     16     16
+
+------------------ show blocks core ------------------
+
+CORE  LIMIT  ALLOC   HIGH    CNT       FAILED
+   0  24576    471    471      1            0
+   1  24576      1      1    413            0
+   2  24576      1      1     56            0
+   3  24576      0      0     15            0
+   4  24576      1      1     19            0
+   5  24576      0      0     16            0
+   6  24576    168    168     21            0
+   7  24576      1      1     11            0
+   8  24576      0      0     25            0
+   9  24576     94     94     22            0
+  10  24576      0      0     32            0
+  11  24576      1      1     22            0
+  12  24576      1      1     30            0
+  13  24576      1      1     23            0
+  14  24576      0      0     17            0
+  15  24576      0      0     17            0
+
+------------------ show blocks queue history detail ------------------
+
+History buffer memory usage: 3744 bytes (default)
+History analysis time limit: 100 msec
+
+Please see 'show blocks exhaustion snapshot' for more information
+
+------------------ show blocks queue history core-local ------------------
+
+History buffer memory usage: 3744 bytes (default)
+History analysis time limit: 100 msec
+
+------------------ show conn data-rate ------------------
+
+Connection data rate tracking is currently disabled.
+
+------------------ show interface ------------------
+
+Interface GigabitEthernet0/0 "", is administratively down, line protocol is up
+  Hardware is net_e1000_em, BW 1000 Mbps, DLY 10 usec
+	Auto-Duplex(Full-duplex), Auto-Speed(1000 Mbps)
+	Input flow control is unsupported, output flow control is unsupported
+	Available but not configured via nameif
+	MAC address 0050.5696.c0cd, MTU not set
+	IP address unassigned
+	772 packets input, 138398 bytes, 0 no buffer
+	Received 0 broadcasts, 0 runts, 0 giants
+	0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+	0 pause input, 0 resume input
+	0 L2 decode drops
+	0 packets output, 0 bytes, 0 underruns
+	0 pause output, 0 resume output
+	0 output errors, 0 collisions, 0 interface resets
+	0 late collisions, 0 deferred
+	0 input reset drops, 0 output reset drops
+	input queue (blocks free curr/low): hardware (0/0)
+	output queue (blocks free curr/low): hardware (0/0)
+  Control Point Interface States:
+	Interface number is 3
+	Interface config status is active
+	Interface state is not active
+Interface GigabitEthernet0/1 "", is administratively down, line protocol is up
+  Hardware is net_e1000_em, BW 1000 Mbps, DLY 10 usec
+	Auto-Duplex(Full-duplex), Auto-Speed(1000 Mbps)
+	Input flow control is unsupported, output flow control is unsupported
+	Available but not configured via nameif
+	MAC address 0050.5696.6bd2, MTU not set
+	IP address unassigned
+	1023 packets input, 138895 bytes, 0 no buffer
+	Received 0 broadcasts, 0 runts, 0 giants
+	0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+	0 pause input, 0 resume input
+	0 L2 decode drops
+	0 packets output, 0 bytes, 0 underruns
+	0 pause output, 0 resume output
+	0 output errors, 0 collisions, 0 interface resets
+	0 late collisions, 0 deferred
+	0 input reset drops, 0 output reset drops
+	input queue (blocks free curr/low): hardware (0/0)
+	output queue (blocks free curr/low): hardware (0/0)
+  Control Point Interface States:
+	Interface number is 4
+	Interface config status is active
+	Interface state is not active
+Interface GigabitEthernet0/2 "", is administratively down, line protocol is up
+  Hardware is net_e1000_em, BW 1000 Mbps, DLY 10 usec
+	Auto-Duplex(Full-duplex), Auto-Speed(1000 Mbps)
+	Input flow control is unsupported, output flow control is unsupported
+	Available but not configured via nameif
+	MAC address 0050.5696.fafd, MTU not set
+	IP address unassigned
+	1023 packets input, 138895 bytes, 0 no buffer
+	Received 0 broadcasts, 0 runts, 0 giants
+	0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+	0 pause input, 0 resume input
+	0 L2 decode drops
+	0 packets output, 0 bytes, 0 underruns
+	0 pause output, 0 resume output
+	0 output errors, 0 collisions, 0 interface resets
+	0 late collisions, 0 deferred
+	0 input reset drops, 0 output reset drops
+	input queue (blocks free curr/low): hardware (0/0)
+	output queue (blocks free curr/low): hardware (0/0)
+  Control Point Interface States:
+	Interface number is 5
+	Interface config status is active
+	Interface state is not active
+Interface Internal-Data0/0 "nlp_int_tap", is up, line protocol is up
+  Hardware is en_vtun rev00, BW Unknown Speed-Capability, DLY 1000 usec
+	(Full-duplex), (1000 Mbps)
+	Input flow control is unsupported, output flow control is unsupported
+	MAC address 0000.0100.0001, MTU 1500
+	IP address 169.254.1.1, subnet mask 255.255.255.248
+	10 packets input, 896 bytes, 0 no buffer
+	Received 0 broadcasts, 0 runts, 0 giants
+	0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+	0 pause input, 0 resume input
+	0 L2 decode drops
+	5 packets output, 370 bytes, 0 underruns
+	0 pause output, 0 resume output
+	0 output errors, 0 collisions, 0 interface resets
+	0 late collisions, 0 deferred
+	0 input reset drops, 0 output reset drops
+	input queue (blocks free curr/low): hardware (0/0)
+	output queue (blocks free curr/low): hardware (0/0)
+  Traffic Statistics for "nlp_int_tap":
+	10 packets input, 756 bytes
+	5 packets output, 300 bytes
+	10 packets dropped
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  0 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+  Control Point Interface States:
+	Interface number is 6
+	Interface config status is active
+	Interface state is active
+Interface Management0/0 "management", is up, line protocol is up
+  Hardware is net_e1000_em, BW 1000 Mbps, DLY 10 usec
+	Auto-Duplex(Full-duplex), Auto-Speed(1000 Mbps)
+	Input flow control is unsupported, output flow control is unsupported
+	MAC address 0050.56b3.14f0, MTU 1500
+	IP address 20.42.0.20, subnet mask 255.255.255.0
+	4304 packets input, 364245 bytes, 0 no buffer
+	Received 0 broadcasts, 0 runts, 0 giants
+	0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+	0 pause input, 0 resume input
+	0 L2 decode drops
+	10740 packets output, 1624900 bytes, 0 underruns
+	0 pause output, 0 resume output
+	0 output errors, 0 collisions, 0 interface resets
+	0 late collisions, 0 deferred
+	0 input reset drops, 0 output reset drops
+	input queue (blocks free curr/low): hardware (0/0)
+	output queue (blocks free curr/low): hardware (0/0)
+  Traffic Statistics for "management":
+	4304 packets input, 273125 bytes
+	10740 packets output, 1469004 bytes
+	77 packets dropped
+      1 minute input rate 0 pkts/sec,  12 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 1 pkts/sec,  82 bytes/sec
+      5 minute output rate 7 pkts/sec,  1195 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+  Control Point Interface States:
+	Interface number is 2
+	Interface config status is active
+	Interface state is active
+
+------------------ show ipv6 interface ------------------
+
+nlp_int_tap is up, line protocol is up
+  IPv6 is enabled, link-local address is fe80::200:1ff:fe00:1  
+  Global unicast address(es):
+    fd00:0:0:1::1, subnet is fd00:0:0:1::/64  
+  Joined group address(es):
+    ff02::1:ff00:1
+    ff02::1
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds
+  ND advertised reachable time is 0 milliseconds
+  ND advertised retransmit interval is 1000 milliseconds
+  ND router advertisements are sent every 200 seconds
+  ND router advertisements live for 1800 seconds
+  Hosts use stateless autoconfig for addresses.
+
+------------------ show fragment ------------------
+
+Interface: management
+    Size: 200, Chain: 24, Timeout: 5, Reassembly: virtual
+    Queue: 0, Assembled: 0, Fail: 0, Overflow: 0
+
+------------------ show nve ------------------
+
+
+------------------ show route summary ------------------
+
+
+IP routing table maximum-paths is 8
+Route Source    Networks    Subnets     Replicates  Overhead    Memory (bytes)
+connected       0           4           0           352         1184        
+static          1           0           0           88          296         
+internal        2                                               792         
+Total           3           4           0           440         2272        
+
+
+------------------ show cpu usage ------------------
+
+CPU utilization for 5 seconds = 0%; 1 minute: 0%; 5 minutes: 0%
+
+Virtual platform CPU resources
+------------------------------
+Number of vCPUs              :    16 
+
+------------------ show cpu detailed ------------------
+
+
+Break down of per-core data path versus control point cpu usage:
+Core         5 sec            1 min            5 min
+Core 0       0.4 (0.2 + 0.2)  0.1 (0.0 + 0.1)  0.0 (0.0 + 0.0)
+Core 1       0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 2       0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 3       0.0 (0.0 + 0.0)  0.1 (0.0 + 0.1)  0.0 (0.0 + 0.0)
+Core 4       0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 5       0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 6       0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 7       0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 8       0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 9       0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 10      0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 11      0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 12      0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 13      0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 14      0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+Core 15      0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)  0.0 (0.0 + 0.0)
+
+Current control point elapsed versus the maximum control point elapsed for:
+      5 seconds = 0.0%; 1 minute: 0.0%; 5 minutes: 0.0%
+
+
+CPU utilization of external processes for:
+      5 seconds = 0.0%; 1 minute: 0.0%; 5 minutes: 0.0%
+
+
+Total CPU utilization for:
+      5 seconds = 0.1%; 1 minute: 0.0%; 5 minutes: 0.0%
+
+Virtual platform CPU resources
+------------------------------
+Number of vCPUs              :    16 
+
+------------------ show process cpu-usage sorted non-zero ------------------
+
+Hardware:   ASAv
+Cisco Adaptive Security Appliance Software Version 9.14(1)6
+ASLR enabled, text region 5599efa87000-5599f461052d
+PC         Thread       5Sec     1Min     5Min   Process
+0x00005599f24ed2b0   0x00007f4f9d38e060     7.7%     2.2%     0.5%   ssh
+   -          -         2.0%     0.6%     0.5%   PTHREAD-2279
+0x00005599f0cb4ba5   0x00007f4f9d3a8c20     0.2%     0.0%     0.0%   CP Midpath Processing
+   -          -         0.2%     0.2%     0.2%   PTHREAD-2281
+0x00005599f1e6c00a   0x00007f4f9d3a67e0     0.2%     0.6%     0.6%   update_cpu_usage
+0x00005599f256f9db   0x00007f4f9d3a6440     0.1%     0.0%     0.0%   npshim_thread
+   -          -         0.1%     0.2%     0.2%   PTHREAD-2282
+   -          -         0.1%     0.1%     0.1%   PTHREAD-2280
+   -          -         0.1%     0.2%     0.2%   PTHREAD-2285
+   -          -         0.1%     0.2%     0.2%   PTHREAD-2286
+0x00005599f084a0da   0x00007f4f9d3b0ea0     0.1%     0.4%     0.4%   CTM message handler
+   -          -         0.1%     0.2%     0.2%   PTHREAD-2291
+   -          -         0.1%     0.1%     0.1%   PTHREAD-2293
+   -          -         0.1%     0.1%     0.1%   PTHREAD-2283
+   -          -         0.1%     0.2%     0.2%   PTHREAD-2288
+   -          -         0.1%     0.2%     0.2%   PTHREAD-2289
+   -          -         0.1%     0.2%     0.2%   PTHREAD-2284
+   -          -         0.1%     0.2%     0.2%   PTHREAD-2287
+   -          -         0.1%     0.2%     0.2%   PTHREAD-2290
+   -          -         0.1%     0.1%     0.1%   PTHREAD-2292
+   -          -         0.1%     0.1%     0.1%   PTHREAD-2294
+0x00005599f14a8730   0x00007f4f9d3a26a0     0.1%     0.2%     0.2%   MLD
+0x00005599f1e02a8e   0x00007f4f9d3acd60     0.0%     0.1%     0.0%   pm_timer_thread
+0x00005599f06d68ac   0x00007f4f9d3cabe0     0.0%     0.5%     0.1%   aaa
+
+------------------ show process cpu-hog ------------------
+
+Hardware:   ASAv
+Cisco Adaptive Security Appliance Software Version 9.14(1)6
+ASLR enabled, text region 5599efa87000-5599f461052d
+
+Process:      ci/console, NUMHOG: 3, MAXHOG: 3, LASTHOG: 3
+LASTHOG At:   18:39:32 UTC Dec 26 2020
+PC:           0x00005599f1d8e19d (suspend)
+Call stack:   0x00005599f3139e4a  0x00005599f1f639ae  0x00005599f1f63d20
+              0x00005599f0f5e665  0x00005599f1d9918d  0x00005599f1d9b565
+              0x00005599f07743dd  0x00005599f07754aa  0x00005599f0776555
+              0x00005599f06ab8fb
+
+
+Process:      ci/console, NUMHOG: 1, MAXHOG: 2, LASTHOG: 2
+LASTHOG At:   18:41:02 UTC Dec 26 2020
+PC:           0x00005599f1d8e19d (suspend)
+Call stack:   0x00005599f3139e4a  0x00005599f1a3bfda  0x00005599f1a3dcc9
+              0x00005599f1a3dfe3  0x00005599f1a3e3e8  0x00005599f1d9918d
+              0x00005599f1d9b565  0x00005599f07743dd  0x00005599f07754aa
+              0x00005599f0776555  0x00005599f06ab8fb
+
+
+Process:      ci/console, PROC_PC_TOTAL: 5, MAXHOG: 3, LASTHOG: 3
+LASTHOG At:   18:41:02 UTC Dec 26 2020
+PC:           0x00005599f1d8e19d (suspend)
+
+Process:      ci/console, NUMHOG: 1, MAXHOG: 3, LASTHOG: 3
+LASTHOG At:   18:41:02 UTC Dec 26 2020
+PC:           0x00005599f1d8e19d (suspend)
+Call stack:   0x00005599f3139e4a  0x00005599f1a3c012  0x00005599f1a3dcc9
+              0x00005599f1a3dfe3  0x00005599f1a3e3e8  0x00005599f1d9918d
+              0x00005599f1d9b565  0x00005599f07743dd  0x00005599f07754aa
+              0x00005599f0776555  0x00005599f06ab8fb
+
+
+Process:      ci/console, NUMHOG: 1, MAXHOG: 3, LASTHOG: 3
+LASTHOG At:   18:47:51 UTC Dec 26 2020
+PC:           0x00005599f2daf642 (suspend)
+Call stack:   0x00005599f2daf642  0x00005599f2e5bb85  0x00005599f2e5c817
+              0x00005599f085dfdf  0x00005599f080def0  0x00005599f20572ed
+              0x00005599f20106bf  0x00005599f2019842  0x00005599f203c30c
+              0x00005599f1d9918d  0x00005599f1d9b565  0x00005599f07743dd
+              0x00005599f07754aa  0x00005599f0776555
+
+
+Process:      ci/console, NUMHOG: 1, MAXHOG: 5, LASTHOG: 5
+LASTHOG At:   18:47:51 UTC Dec 26 2020
+PC:           0x00005599f2dafd45 (suspend)
+Call stack:   0x00005599f2dafd45  0x00005599f2e5bb85  0x00005599f2e5c817
+              0x00005599f085dfdf  0x00005599f080def0  0x00005599f20572ed
+              0x00005599f20106bf  0x00005599f2019842  0x00005599f203c30c
+              0x00005599f1d9918d  0x00005599f1d9b565  0x00005599f07743dd
+              0x00005599f07754aa  0x00005599f0776555
+
+
+Process:      ci/console, PROC_PC_TOTAL: 2, MAXHOG: 5, LASTHOG: 5
+LASTHOG At:   18:47:51 UTC Dec 26 2020
+PC:           0x00005599f2daf642 (suspend)
+
+Process:      ci/console, NUMHOG: 1, MAXHOG: 5, LASTHOG: 5
+LASTHOG At:   18:47:51 UTC Dec 26 2020
+PC:           0x00005599f2daf642 (suspend)
+Call stack:   0x00005599f2daf642  0x00005599f2e5bc2e  0x00005599f2e5c817
+              0x00005599f085dfdf  0x00005599f080def0  0x00005599f20572ed
+              0x00005599f20106bf  0x00005599f2019842  0x00005599f203c30c
+              0x00005599f1d9918d  0x00005599f1d9b565  0x00005599f07743dd
+              0x00005599f07754aa  0x00005599f0776555
+
+
+Process:      ci/console, PROC_PC_TOTAL: 2, MAXHOG: 5, LASTHOG: 5
+LASTHOG At:   18:47:51 UTC Dec 26 2020
+PC:           0x00005599f2dafd45 (suspend)
+
+Process:      ci/console, NUMHOG: 1, MAXHOG: 5, LASTHOG: 5
+LASTHOG At:   18:47:51 UTC Dec 26 2020
+PC:           0x00005599f2dafd45 (suspend)
+Call stack:   0x00005599f2dafd45  0x00005599f2e5bc2e  0x00005599f2e5c817
+              0x00005599f085dfdf  0x00005599f080def0  0x00005599f20572ed
+              0x00005599f20106bf  0x00005599f2019842  0x00005599f203c30c
+              0x00005599f1d9918d  0x00005599f1d9b565  0x00005599f07743dd
+              0x00005599f07754aa  0x00005599f0776555
+
+
+CPU hog threshold (msec):  2.844
+Last cleared: None
+
+------------------ show memory region ------------------
+
+ASLR enabled, text region 5599efa87000-5599f461052d
+
+Address                   Perm Offset   Dev   Inode                      Pathname
+5599efa87000-5599f4611000 r-xp 00000000 00:02 2518                       /asa/bin/lina
+5599f4811000-5599f5af2000 rw-p 04b8a000 00:02 2518                       /asa/bin/lina
+7f4f403a2000-7f4f42612000 rw-p 00000000 00:00 0                          [stack:2302]
+7f4f4347f000-7f4f43681000 rw-p 00000000 00:00 0                          [stack:2298]
+7f4f49335000-7f4f50021000 rw-p 00000000 00:00 0                          [stack:2296]
+7f4f94011000-7f4f95a00000 rw-p 00000000 00:00 0                          [stack:2283]
+7f4f9a61d000-7f4f9a800000 rw-p 00000000 00:00 0                          [stack:2282]
+7f4f9aa09000-7f4f9ac00000 rw-p 00000000 00:00 0                          [stack:2281]
+7f4f9ae1d000-7f4f9b000000 rw-p 00000000 00:00 0                          [stack:2280]
+7f4f9b21d000-7f4f9b400000 rw-p 00000000 00:00 0                          [stack:2279]
+7f4f9b6ff000-7f4f9b800000 rw-p 00000000 00:00 0                          [stack:2278]
+7f4f9ca1f000-7f4f9ca68000 r-xp 00000000 00:02 8220                       /usr/lib64/librte_pmd_e1000.so.1.1
+7f4f9ca68000-7f4f9cc68000 ---p 00049000 00:02 8220                       /usr/lib64/librte_pmd_e1000.so.1.1
+7f4f9cc68000-7f4f9cc6a000 rw-p 00049000 00:02 8220                       /usr/lib64/librte_pmd_e1000.so.1.1
+7f4f9cc6a000-7f4f9ccc3000 r-xp 00000000 00:02 7398                       /usr/lib64/librte_pmd_ixgbe.so.1.1
+7f4f9ccc3000-7f4f9cec2000 ---p 00059000 00:02 7398                       /usr/lib64/librte_pmd_ixgbe.so.1.1
+7f4f9cec2000-7f4f9cec5000 rw-p 00058000 00:02 7398                       /usr/lib64/librte_pmd_ixgbe.so.1.1
+7f4f9fc6a000-7f4f9fc6c000 r-xp 00000000 00:02 4815                       /lib64/libutil-2.22.so
+7f4f9fc6c000-7f4f9fe6b000 ---p 00002000 00:02 4815                       /lib64/libutil-2.22.so
+7f4f9fe6b000-7f4f9fe6c000 r--p 00001000 00:02 4815                       /lib64/libutil-2.22.so
+7f4f9fe6c000-7f4f9fe6d000 rw-p 00002000 00:02 4815                       /lib64/libutil-2.22.so
+7f4f9fe6d000-7f4fa00f0000 r-xp 00000000 00:02 7361                       /usr/lib64/libcrypto.so.1.0.0
+7f4fa00f0000-7f4fa02ef000 ---p 00283000 00:02 7361                       /usr/lib64/libcrypto.so.1.0.0
+7f4fa02ef000-7f4fa031b000 rw-p 00282000 00:02 7361                       /usr/lib64/libcrypto.so.1.0.0
+7f4fa031f000-7f4fa0382000 r-xp 00000000 00:02 8202                       /usr/lib64/libssl.so.1.0.0
+7f4fa0382000-7f4fa0582000 ---p 00063000 00:02 8202                       /usr/lib64/libssl.so.1.0.0
+7f4fa0582000-7f4fa058c000 rw-p 00063000 00:02 8202                       /usr/lib64/libssl.so.1.0.0
+7f4fa058c000-7f4fa05c5000 r-xp 00000000 00:02 7406                       /usr/lib64/libxslt.so.1.1.28
+7f4fa05c5000-7f4fa07c4000 ---p 00039000 00:02 7406                       /usr/lib64/libxslt.so.1.1.28
+7f4fa07c4000-7f4fa07c6000 rw-p 00038000 00:02 7406                       /usr/lib64/libxslt.so.1.1.28
+7f4fa07c6000-7f4fa0825000 r-xp 00000000 00:02 7383                       /usr/lib64/libxmlsec1.so.1.2.20
+7f4fa0825000-7f4fa0a24000 ---p 0005f000 00:02 7383                       /usr/lib64/libxmlsec1.so.1.2.20
+7f4fa0a24000-7f4fa0a28000 rw-p 0005e000 00:02 7383                       /usr/lib64/libxmlsec1.so.1.2.20
+7f4fa0a28000-7f4fa0a60000 r-xp 00000000 00:02 8210                       /usr/lib64/libxmlsec1-openssl.so.1.2.20
+7f4fa0a60000-7f4fa0c60000 ---p 00038000 00:02 8210                       /usr/lib64/libxmlsec1-openssl.so.1.2.20
+7f4fa0c60000-7f4fa0c64000 rw-p 00038000 00:02 8210                       /usr/lib64/libxmlsec1-openssl.so.1.2.20
+7f4fa0c65000-7f4fa0ca7000 r-xp 00000000 00:02 4177                       /usr/lib64/libpcre.so.1.2.5
+7f4fa0ca7000-7f4fa0ea6000 ---p 00042000 00:02 4177                       /usr/lib64/libpcre.so.1.2.5
+7f4fa0ea6000-7f4fa0ea7000 rw-p 00041000 00:02 4177                       /usr/lib64/libpcre.so.1.2.5
+7f4fa0ea7000-7f4fa0eae000 r-xp 00000000 00:02 7342                       /usr/lib64/libffi.so.6.0.4
+7f4fa0eae000-7f4fa10ae000 ---p 00007000 00:02 7342                       /usr/lib64/libffi.so.6.0.4
+7f4fa10ae000-7f4fa10af000 rw-p 00007000 00:02 7342                       /usr/lib64/libffi.so.6.0.4
+7f4fa10af000-7f4fa1237000 r-xp 00000000 00:02 10314                      /usr/lib64/libpython2.7.so.1.0
+7f4fa1237000-7f4fa1437000 ---p 00188000 00:02 10314                      /usr/lib64/libpython2.7.so.1.0
+7f4fa1437000-7f4fa1477000 rw-p 00188000 00:02 10314                      /usr/lib64/libpython2.7.so.1.0
+7f4fa1485000-7f4fa148f000 r-xp 00000000 00:02 7390                       /usr/lib64/libunwind.so.8.0.1
+7f4fa148f000-7f4fa168f000 ---p 0000a000 00:02 7390                       /usr/lib64/libunwind.so.8.0.1
+7f4fa168f000-7f4fa1690000 rw-p 0000a000 00:02 7390                       /usr/lib64/libunwind.so.8.0.1
+7f4fa169f000-7f4fa183a000 r-xp 00000000 00:02 4801                       /lib64/libc-2.22.so
+7f4fa183a000-7f4fa1a3a000 ---p 0019b000 00:02 4801                       /lib64/libc-2.22.so
+7f4fa1a3a000-7f4fa1a3e000 r--p 0019b000 00:02 4801                       /lib64/libc-2.22.so
+7f4fa1a3e000-7f4fa1a40000 rw-p 0019f000 00:02 4801                       /lib64/libc-2.22.so
+7f4fa1a44000-7f4fa1a55000 r-xp 00000000 00:02 2067                       /lib64/libgcc_s.so.1
+7f4fa1a55000-7f4fa1c55000 ---p 00011000 00:02 2067                       /lib64/libgcc_s.so.1
+7f4fa1c55000-7f4fa1c56000 rw-p 00011000 00:02 2067                       /lib64/libgcc_s.so.1
+7f4fa1c56000-7f4fa1d53000 r-xp 00000000 00:02 4850                       /lib64/libm-2.22.so
+7f4fa1d53000-7f4fa1f52000 ---p 000fd000 00:02 4850                       /lib64/libm-2.22.so
+7f4fa1f52000-7f4fa1f53000 r--p 000fc000 00:02 4850                       /lib64/libm-2.22.so
+7f4fa1f53000-7f4fa1f54000 rw-p 000fd000 00:02 4850                       /lib64/libm-2.22.so
+7f4fa1f54000-7f4fa1f5c000 r-xp 00000000 00:02 7915                       /usr/lib64/librte_pmd_af_packet.so.1.1
+7f4fa1f5c000-7f4fa215b000 ---p 00008000 00:02 7915                       /usr/lib64/librte_pmd_af_packet.so.1.1
+7f4fa215b000-7f4fa215c000 rw-p 00007000 00:02 7915                       /usr/lib64/librte_pmd_af_packet.so.1.1
+7f4fa215c000-7f4fa2169000 r-xp 00000000 00:02 4230                       /usr/lib64/librte_pmd_ena.so.1.1
+7f4fa2169000-7f4fa2368000 ---p 0000d000 00:02 4230                       /usr/lib64/librte_pmd_ena.so.1.1
+7f4fa2368000-7f4fa2369000 rw-p 0000c000 00:02 4230                       /usr/lib64/librte_pmd_ena.so.1.1
+7f4fa2369000-7f4fa2375000 r-xp 00000000 00:02 4235                       /usr/lib64/librte_pmd_vmxnet3_uio.so.1.1
+7f4fa2375000-7f4fa2574000 ---p 0000c000 00:02 4235                       /usr/lib64/librte_pmd_vmxnet3_uio.so.1.1
+7f4fa2574000-7f4fa2575000 rw-p 0000b000 00:02 4235                       /usr/lib64/librte_pmd_vmxnet3_uio.so.1.1
+7f4fa2575000-7f4fa25eb000 r-xp 00000000 00:02 7932                       /usr/lib64/librte_pmd_i40e.so.1.1
+7f4fa25eb000-7f4fa27ea000 ---p 00076000 00:02 7932                       /usr/lib64/librte_pmd_i40e.so.1.1
+7f4fa27ea000-7f4fa27f5000 rw-p 00075000 00:02 7932                       /usr/lib64/librte_pmd_i40e.so.1.1
+7f4fa27f5000-7f4fa2808000 r-xp 00000000 00:02 7375                       /usr/lib64/librte_pmd_virtio.so.1.1
+7f4fa2808000-7f4fa2a08000 ---p 00013000 00:02 7375                       /usr/lib64/librte_pmd_virtio.so.1.1
+7f4fa2a08000-7f4fa2a09000 rw-p 00013000 00:02 7375                       /usr/lib64/librte_pmd_virtio.so.1.1
+7f4fa2a09000-7f4fa2a1a000 r-xp 00000000 00:02 8240                       /usr/lib64/librte_hash.so.2.1
+7f4fa2a1a000-7f4fa2c19000 ---p 00011000 00:02 8240                       /usr/lib64/librte_hash.so.2.1
+7f4fa2c19000-7f4fa2c1a000 rw-p 00010000 00:02 8240                       /usr/lib64/librte_hash.so.2.1
+7f4fa2c1a000-7f4fa2c1b000 r-xp 00000000 00:02 7351                       /usr/lib64/librte_kvargs.so.1.1
+7f4fa2c1b000-7f4fa2e1b000 ---p 00001000 00:02 7351                       /usr/lib64/librte_kvargs.so.1.1
+7f4fa2e1b000-7f4fa2e1c000 rw-p 00001000 00:02 7351                       /usr/lib64/librte_kvargs.so.1.1
+7f4fa2e1c000-7f4fa2e45000 r-xp 00000000 00:02 7371                       /usr/lib64/librte_eal.so.5.1
+7f4fa2e45000-7f4fa3044000 ---p 00029000 00:02 7371                       /usr/lib64/librte_eal.so.5.1
+7f4fa3044000-7f4fa3047000 rw-p 00028000 00:02 7371                       /usr/lib64/librte_eal.so.5.1
+7f4fa3097000-7f4fa3099000 r-xp 00000000 00:02 4234                       /usr/lib64/librte_ring.so.2.1
+7f4fa3099000-7f4fa3298000 ---p 00002000 00:02 4234                       /usr/lib64/librte_ring.so.2.1
+7f4fa3298000-7f4fa3299000 rw-p 00001000 00:02 4234                       /usr/lib64/librte_ring.so.2.1
+7f4fa3299000-7f4fa329b000 r-xp 00000000 00:02 4242                       /usr/lib64/librte_mempool_ring.so.1.1
+7f4fa329b000-7f4fa349a000 ---p 00002000 00:02 4242                       /usr/lib64/librte_mempool_ring.so.1.1
+7f4fa349a000-7f4fa349b000 rw-p 00001000 00:02 4242                       /usr/lib64/librte_mempool_ring.so.1.1
+7f4fa349b000-7f4fa34a0000 r-xp 00000000 00:02 7430                       /usr/lib64/librte_mempool.so.2.1
+7f4fa34a0000-7f4fa369f000 ---p 00005000 00:02 7430                       /usr/lib64/librte_mempool.so.2.1
+7f4fa369f000-7f4fa36a0000 rw-p 00004000 00:02 7430                       /usr/lib64/librte_mempool.so.2.1
+7f4fa36a0000-7f4fa36b0000 r-xp 00000000 00:02 7320                       /usr/lib64/librte_ethdev.so.6.1
+7f4fa36b0000-7f4fa38af000 ---p 00010000 00:02 7320                       /usr/lib64/librte_ethdev.so.6.1
+7f4fa38af000-7f4fa38b0000 rw-p 0000f000 00:02 7320                       /usr/lib64/librte_ethdev.so.6.1
+7f4fa3931000-7f4fa3934000 r-xp 00000000 00:02 7387                       /usr/lib64/librte_net.so.1.1
+7f4fa3934000-7f4fa3b34000 ---p 00003000 00:02 7387                       /usr/lib64/librte_net.so.1.1
+7f4fa3b34000-7f4fa3b35000 rw-p 00003000 00:02 7387                       /usr/lib64/librte_net.so.1.1
+7f4fa3b35000-7f4fa3b3a000 r-xp 00000000 00:02 7426                       /usr/lib64/librte_mbuf.so.3.1
+7f4fa3b3a000-7f4fa3d3a000 ---p 00005000 00:02 7426                       /usr/lib64/librte_mbuf.so.3.1
+7f4fa3d3a000-7f4fa3d3b000 rw-p 00005000 00:02 7426                       /usr/lib64/librte_mbuf.so.3.1
+7f4fa3d3b000-7f4fa3d3e000 r-xp 00000000 00:02 2509                       /asa/lib/libplatcap.so
+7f4fa3d3e000-7f4fa3f3d000 ---p 00003000 00:02 2509                       /asa/lib/libplatcap.so
+7f4fa3f3d000-7f4fa3f48000 rw-p 00002000 00:02 2509                       /asa/lib/libplatcap.so
+7f4fa3f48000-7f4fa3f9e000 r-xp 00000000 00:02 7366                       /usr/lib64/libgobject-2.0.so.0.5400.3
+7f4fa3f9e000-7f4fa419d000 ---p 00056000 00:02 7366                       /usr/lib64/libgobject-2.0.so.0.5400.3
+7f4fa419d000-7f4fa419f000 rw-p 00055000 00:02 7366                       /usr/lib64/libgobject-2.0.so.0.5400.3
+7f4fa419f000-7f4fa42b4000 r-xp 00000000 00:02 7419                       /usr/lib64/libglib-2.0.so.0.5400.3
+7f4fa42b4000-7f4fa44b3000 ---p 00115000 00:02 7419                       /usr/lib64/libglib-2.0.so.0.5400.3
+7f4fa44b3000-7f4fa44b5000 rw-p 00114000 00:02 7419                       /usr/lib64/libglib-2.0.so.0.5400.3
+7f4fa44b5000-7f4fa452c000 r-xp 00000000 00:02 7368                       /usr/lib64/liblasso.so.3.12.1
+7f4fa452c000-7f4fa472b000 ---p 00077000 00:02 7368                       /usr/lib64/liblasso.so.3.12.1
+7f4fa472b000-7f4fa4737000 rw-p 00076000 00:02 7368                       /usr/lib64/liblasso.so.3.12.1
+7f4fa4737000-7f4fa473f000 r-xp 00000000 00:02 7403                       /usr/lib64/libprotobuf-c.so.1.0.0
+7f4fa473f000-7f4fa493e000 ---p 00008000 00:02 7403                       /usr/lib64/libprotobuf-c.so.1.0.0
+7f4fa493e000-7f4fa493f000 rw-p 00007000 00:02 7403                       /usr/lib64/libprotobuf-c.so.1.0.0
+7f4fa493f000-7f4fa4985000 r-xp 00000000 00:02 2483                       /usr/lib64/libmsglyr.so.1.0.0
+7f4fa4985000-7f4fa4b84000 ---p 00046000 00:02 2483                       /usr/lib64/libmsglyr.so.1.0.0
+7f4fa4b84000-7f4fa4b89000 rw-p 00045000 00:02 2483                       /usr/lib64/libmsglyr.so.1.0.0
+7f4fa4b89000-7f4fa4c0e000 r-xp 00000000 00:02 7926                       /usr/lib64/libzmq.so.5.1.3
+7f4fa4c0e000-7f4fa4e0d000 ---p 00085000 00:02 7926                       /usr/lib64/libzmq.so.5.1.3
+7f4fa4e0d000-7f4fa4e14000 rw-p 00084000 00:02 7926                       /usr/lib64/libzmq.so.5.1.3
+7f4fa4e14000-7f4fa4e29000 r-xp 00000000 00:02 2069                       /lib64/libz.so.1.2.8
+7f4fa4e29000-7f4fa5028000 ---p 00015000 00:02 2069                       /lib64/libz.so.1.2.8
+7f4fa5028000-7f4fa5029000 rw-p 00014000 00:02 2069                       /lib64/libz.so.1.2.8
+7f4fa5029000-7f4fa5179000 r-xp 00000000 00:02 8196                       /usr/lib64/libxml2.so.2.9.2
+7f4fa5179000-7f4fa5378000 ---p 00150000 00:02 8196                       /usr/lib64/libxml2.so.2.9.2
+7f4fa5378000-7f4fa5382000 rw-p 0014f000 00:02 8196                       /usr/lib64/libxml2.so.2.9.2
+7f4fa5383000-7f4fa53a6000 r-xp 00000000 00:02 2499                       /asa/lib/libpdts.so
+7f4fa53a6000-7f4fa55a5000 ---p 00023000 00:02 2499                       /asa/lib/libpdts.so
+7f4fa55a5000-7f4fa55a7000 rw-p 00022000 00:02 2499                       /asa/lib/libpdts.so
+7f4fa55ff000-7f4fa5613000 r-xp 00000000 00:02 4857                       /lib64/libresolv-2.22.so
+7f4fa5613000-7f4fa5812000 ---p 00014000 00:02 4857                       /lib64/libresolv-2.22.so
+7f4fa5812000-7f4fa5813000 r--p 00013000 00:02 4857                       /lib64/libresolv-2.22.so
+7f4fa5813000-7f4fa5814000 rw-p 00014000 00:02 4857                       /lib64/libresolv-2.22.so
+7f4fa5816000-7f4fa5823000 r-xp 00000000 00:02 2050                       /lib64/libudev.so.0.13.1
+7f4fa5823000-7f4fa5a22000 ---p 0000d000 00:02 2050                       /lib64/libudev.so.0.13.1
+7f4fa5a22000-7f4fa5a23000 rw-p 0000c000 00:02 2050                       /lib64/libudev.so.0.13.1
+7f4fa5a23000-7f4fa5a39000 r-xp 00000000 00:02 4858                       /lib64/libcgroup.so.1.0.41
+7f4fa5a39000-7f4fa5c38000 ---p 00016000 00:02 4858                       /lib64/libcgroup.so.1.0.41
+7f4fa5c38000-7f4fa5c3a000 rw-p 00015000 00:02 4858                       /lib64/libcgroup.so.1.0.41
+7f4fa5e94000-7f4fa5e9b000 r-xp 00000000 00:02 4860                       /lib64/librt-2.22.so
+7f4fa5e9b000-7f4fa609a000 ---p 00007000 00:02 4860                       /lib64/librt-2.22.so
+7f4fa609a000-7f4fa609b000 r--p 00006000 00:02 4860                       /lib64/librt-2.22.so
+7f4fa609b000-7f4fa609c000 rw-p 00007000 00:02 4860                       /lib64/librt-2.22.so
+7f4fa609c000-7f4fa60b4000 r-xp 00000000 00:02 4799                       /lib64/libpthread-2.22.so
+7f4fa60b4000-7f4fa62b3000 ---p 00018000 00:02 4799                       /lib64/libpthread-2.22.so
+7f4fa62b3000-7f4fa62b4000 r--p 00017000 00:02 4799                       /lib64/libpthread-2.22.so
+7f4fa62b4000-7f4fa62b5000 rw-p 00018000 00:02 4799                       /lib64/libpthread-2.22.so
+7f4fa62b9000-7f4fa62e0000 r-xp 00000000 00:02 7417                       /usr/lib64/libexpat.so.1.6.0
+7f4fa62e0000-7f4fa64df000 ---p 00027000 00:02 7417                       /usr/lib64/libexpat.so.1.6.0
+7f4fa64df000-7f4fa64e2000 rw-p 00026000 00:02 7417                       /usr/lib64/libexpat.so.1.6.0
+7f4fa64e2000-7f4fa664d000 r-xp 00000000 00:02 7397                       /usr/lib64/libstdc++.so.6.0.21
+7f4fa664d000-7f4fa684d000 ---p 0016b000 00:02 7397                       /usr/lib64/libstdc++.so.6.0.21
+7f4fa684d000-7f4fa6857000 r--p 0016b000 00:02 7397                       /usr/lib64/libstdc++.so.6.0.21
+7f4fa6857000-7f4fa6859000 rw-p 00175000 00:02 7397                       /usr/lib64/libstdc++.so.6.0.21
+7f4fa685d000-7f4fa6867000 r-xp 00000000 00:02 7411                       /usr/lib64/libnuma.so.1.0.0
+7f4fa6867000-7f4fa6a67000 ---p 0000a000 00:02 7411                       /usr/lib64/libnuma.so.1.0.0
+7f4fa6a67000-7f4fa6a68000 rw-p 0000a000 00:02 7411                       /usr/lib64/libnuma.so.1.0.0
+7f4fa6a68000-7f4fa6a6b000 r-xp 00000000 00:02 2064                       /lib64/libdl-2.22.so
+7f4fa6a6b000-7f4fa6c6a000 ---p 00003000 00:02 2064                       /lib64/libdl-2.22.so
+7f4fa6c6a000-7f4fa6c6b000 r--p 00002000 00:02 2064                       /lib64/libdl-2.22.so
+7f4fa6c6b000-7f4fa6c6c000 rw-p 00003000 00:02 2064                       /lib64/libdl-2.22.so
+7f4fa6c6c000-7f4fa6c6f000 r-xp 00000000 00:02 8233                       /usr/lib64/libciscoosc.so.1
+7f4fa6c6f000-7f4fa6e6e000 ---p 00003000 00:02 8233                       /usr/lib64/libciscoosc.so.1
+7f4fa6e6e000-7f4fa6e6f000 rw-p 00002000 00:02 8233                       /usr/lib64/libciscoosc.so.1
+7f4fa6e6f000-7f4fa6e91000 r-xp 00000000 00:02 2053                       /lib64/ld-2.22.so
+7f4fa7090000-7f4fa7091000 r--p 00021000 00:02 2053                       /lib64/ld-2.22.so
+7f4fa7091000-7f4fa7092000 rw-p 00022000 00:02 2053                       /lib64/ld-2.22.so
+7ffcb2750000-7ffcb2771000 rw-p 00000000 00:00 0                          [stack]
+7ffcb27e2000-7ffcb27e4000 r-xp 00000000 00:00 0                          [vdso]
+
+------------------ show process ------------------
+
+Hardware:   ASAv
+Cisco Adaptive Security Appliance Software Version 9.14(1)6
+ASLR enabled, text region 5599efa87000-5599f461052d
+
+    PC                 SP                 STATE                 Runtime              SBASE       Stack Process TID
+Mwe 0x00005599f1bcfd93 0x00007f4f4373ee88 0x00005599f862ed60          0 0x00007f4f43737030 32064/32768 zone_background_idb 136
+Mwe 0x00005599f29f1ffd 0x00007f4f038e6af8 0x00005599f862ed60          1 0x00007f4f038df030 30616/32768 webvpn_task 178
+Mwe 0x00005599f13d1e68 0x00007f4f9ae0fd48 0x00005599f862ed60          0 0x00007f4f9ae08030 24744/32768 WebVPN KCD Process 9
+Msi 0x00005599f284a552 0x00007f4f48d37e58 0x00005599f862ed60         30 0x00007f4f48d30030 31808/32768 vpnlb_timer_thread 128
+Mwe 0x00005599f284a78a 0x00007f4f436fcea8 0x00005599f833aaa0          0 0x00007f4f436f5030 31784/32768 vpnlb_thread 96
+Msi 0x00005599f282e188 0x00007f4f023f9eb8 0x00005599f862ed60         72 0x00007f4f023f2030 31904/32768 vpnfol_thread_unsent 219
+Msi 0x00005599f282e025 0x00007f4f02901ea8 0x00005599f862ed60         33 0x00007f4f028fa030 31888/32768 vpnfol_thread_timer 217
+Mwe 0x00005599f282dac8 0x00007f4f02404e18 0x00005599f833a780          0 0x00007f4f023fd030 32224/32768 vpnfol_thread_sync 218
+Mwe 0x00005599f282d69f 0x00007f4f038c5ea8 0x00005599f833a530          0 0x00007f4f038b6030 65136/65536 vpnfol_thread_msg 216
+Mwe 0x00005599f100b3a8 0x00007f4f0410be98 0x00005599f862ed60          0 0x00007f4f04104030 32064/32768 VPN director state sync 152
+Msi 0x00005599f27fcf95 0x00007f4f43c6bea8 0x00005599f862ed60         23 0x00007f4f43c64030 31888/32768 VPN Clustering HA timer thread 158
+Mwe 0x00005599f27f7bb5 0x00007f4f43733eb8 0x00005599f862ed60          0 0x00007f4f4372c030 32096/32768 VPN Cluster HA msg send thread 159
+Mwe 0x00005599f27f9ad5 0x00007f4f436f1eb8 0x00005599f862ed60          0 0x00007f4f436ea030 32096/32768 VPN Cluster HA msg receive thread 160
+Mwe 0x00005599f27f75a5 0x00007f4f48d4de78 0x00005599f862ed60          0 0x00007f4f48d46030 32240/32768 VPN Cluster HA bulk sync thread 157
+Mwe 0x00005599f27f69ad 0x00007f4f48d58e88 0x00005599f862ed60          0 0x00007f4f48d51030 32256/32768 VPN Cluster HA backup activation thread 156
+Mwe 0x00005599f2886755 0x00007f4f436c5bd8 0x00005599f862ed60          4 0x00007f4f436be030 27048/32768 VM environment thread 101
+Mwe 0x00005599f2616230 0x00007f4f422cacb8 0x00005599f862ed60          0 0x00007f4f49148030 31464/32768 UserFromCert Thread 17
+Lsi 0x00005599f1e61a82 0x00007f4f48e29ee8 0x00005599f862ed60         16 0x00007f4f48e22030 30456/32768 update_mem_usage 222
+Lwe 0x00005599f1e61d28 0x00007f4f48c8dea8 0x00005599f815c9f0          2 0x00007f4f48c86030 31720/32768 update_mem_reference 223
+Msi 0x00005599f1e6c00a 0x00007f4f038fcee8 0x00005599f862ed60        843 0x00007f4f038f5030 28792/32768 update_cpu_usage 176
+Mwe 0x00005599f225c82f 0x00007f4f038dbe58 0x00005599f862ed60          0 0x00007f4f038d4030 31624/32768 unique_id_task 179
+Mwe 0x00005599f25dec3c 0x00007f4f4261ae88 0x00005599f82f9740          0 0x00007f4f42613030 32328/32768 udp_timer 114
+Mwe 0x00005599f25e193c 0x00007f4f03460e48 0x00005599f862ed60          0 0x00007f4f03459030 31984/32768 udp_thread 190
+Lsi 0x00005599f1e46edf 0x00007f4f43cdbed8 0x00005599f862ed60          0 0x00007f4f43cd4030 31936/32768 uauth_urlb clean 147
+Mwe 0x00005599f24bc598 0x00007f4f43c81ea8 0x00005599f82e3b10          0 0x00007f4f43c7a030 32160/32768 Uauth_Proxy 80
+Mwe 0x00005599f254af52 0x00007f4f43c8cdc8 0x00007f4f85e35778          1 0x00007f4f43c85030 31560/32768 uauth 79
+Mwe 0x00005599f0f79fe1 0x00007f4f48d42ea8 0x00005599f862ed60          0 0x00007f4f48d3b030 32096/32768 tunnel_ifc_init 47
+Mwe 0x00005599f0b18bfc 0x00007f4f098bfd98 0x00005599f6673040         12 0x00007f4f09880030 246536/262144 tmatch compile thread 131
+Mwe 0x00005599f0ca778d 0x00007f4f4333be88 0x00005599f862ed60          0 0x00007f4f43334030 32048/32768 TLS Proxy Inspector 107
+Mwe 0x00005599f0ca619d 0x00007f4f43330e98 0x00005599f862ed60          0 0x00007f4f43329030 32064/32768 TLS Proxy Handshake 108
+Mwe 0x00005599f2529692 0x00007f4f43754ea8 0x00005599f862ed60          0 0x00007f4f4374d030 32016/32768 Thread Logger 88
+Mwe 0x00005599f25589bf 0x00007f4f0346bc08 0x00005599f88de8d0          0 0x00007f4f03464030 31696/32768 tcp_thread 189
+Mwe 0x00005599f25543b1 0x00007f4f4263de68 0x00005599f82edeb0          0 0x00007f4f42636030 31872/32768 tcp_slow 113
+Mwe 0x00005599f255018d 0x00007f4f42648e98 0x00005599f82edeb0          0 0x00007f4f42641030 31920/32768 tcp_fast 112
+Mwe 0x00005599f253d2bf 0x00007f4f43749e88 0x00005599f82eda30          0 0x00007f4f43742030 31496/32768 syslogd 89
+Mwe 0x00005599f2530a77 0x00007f4f4375fde8 0x00005599f862ed60          0 0x00007f4f43758030 31904/32768 Syslog Timer Thread 87
+Mwe 0x00005599f097b265 0x00007f4f490b8de8 0x00005599f862ed60         10 0x00007f4f490b1030 31696/32768 SXP CORE 30
+Mwe 0x00005599f1be7b03 0x00007f4f4371dcb8 0x00005599f862ed60          0 0x00007f4f43716030 31376/32768 static 138
+Msp 0x00005599f251e2af 0x00007f4f4378bed8 0x00005599f862ed60          9 0x00007f4f43784030 31936/32768 SSL 83
+Mwe 0x00005599f24f80e5 0x00007f4f436dbeb8 0x00005599f862ed60          0 0x00007f4f436d4030 29160/32768 ssh/timer 228
+M*  0x00005599f24ed2b0 0x00007f4f9ca03f28 0x00005599f862f320        123 0x00007f4f01fb0030 244640/262144 ssh 284
+Mwe 0x00005599f22ac9cc 0x00007f4f43ce6e78 0x00005599f9a3e1f0          0 0x00007f4f43cdf030 31888/32768 SNMP Notify Thread 211
+Mwe 0x00005599f22aa608 0x00007f4f48d5fa38 0x00005599f862ed60          0 0x00007f4f48d5c030 14320/32768 SNMP Host Timer Thread 212
+Mwe 0x00005599f22acd8d 0x00007f4f48cfbea8 0x00005599f997dc00          0 0x00007f4f48cf4030 32368/32768 SNMP ContextThread 213
+Mwe 0x00005599f253ea1c 0x00007f4f43775e78 0x00005599f82edad0          0 0x00007f4f4376e030 31720/32768 SMTP 85
+Mwe 0x00005599f1433c07 0x00007f4f49079e48 0x00005599f7960f90          1 0x00007f4f49072030 31672/32768 SmartLic IPC Comm 123
+Mwe 0x00005599f143495c 0x00007f4f49178e58 0x00005599f7961370          0 0x00007f4f49171030 26288/32768 SmartLic IPC 120
+Msi 0x00005599f14396b2 0x00007f4f490faee8 0x00005599f862ed60          0 0x00007f4f490f3030 31784/32768 sm_lic_sch_comm_thread 121
+Mwe 0x00005599f1439615 0x00007f4f490e4e58 0x00005599f862ed60          0 0x00007f4f490dd030 27784/32768 sm_lic_entitlement_thread 122
+Mwe 0x00005599f0b419dd 0x00007f4f49327d88 0x00005599f66bb7d0          0 0x00007f4f49320030 29360/32768 sfr-vpn-status-watcher 119
+Mwe 0x00005599f0b42dbc 0x00007f4f4906ee88 0x00005599f862ed60          0 0x00007f4f49067030 26440/32768 sfr-vpn-status 36
+Mwe 0x00005599f22658d2 0x00007f4f038d0e48 0x00005599f862ed60          0 0x00007f4f038c9030 31624/32768 sessmgr_redist_task 180
+Mwe 0x00005599f22418f1 0x00007f4f43cb2e28 0x00005599f862ed60          3 0x00007f4f43ca3030 64216/65536 Session Manager 77
+Mwe 0x00005599f2520642 0x00007f4f43780d78 0x00005599f862ed60        123 0x00007f4f43779030 27568/32768 Self-Sign Cert Thread 84
+Mwe 0x00005599f28c4785 0x00007f4f43c9fac8 0x00005599f862ed60         10 0x00007f4f43c90030 63400/65536 sch_module 214
+Mwe 0x00005599f28ae7f5 0x00007f4f436afdb8 0x00005599f862ed60          6 0x00007f4f436a0030 64288/65536 scansafe_poll 103
+Mwe 0x00005599f2616230 0x00007f4f02c07cb8 0x00005599f862ed60         30 0x00007f4f02ccb030 58104/65536 rtcli async executor process 210
+Mwe 0x00005599f0f1e081 0x00007f4f4802ae98 0x00005599f862ed60          0 0x00007f4f48023030 32080/32768 REST Periodic 67
+Mwe 0x00005599f06a1975 0x00007f4f4916dea8 0x00005599f862ed60          0 0x00007f4f4915e030 64728/65536 Reload Control Thread 15
+Mwe 0x00005599f0972b8a 0x00007f4f490ade98 0x00005599f862ed60          2 0x00007f4f490a6030 31608/32768 RBM CORE 31
+Mwe 0x00005599f24d3825 0x00007f4f03e8aeb8 0x00005599f862ed60          0 0x00007f4f03e83030 32112/32768 RADIUS Proxy Time Keeper 163
+Mwe 0x00005599f248f5b7 0x00007f4f03e95978 0x00007f4f86142258          0 0x00007f4f03e8e030 30712/32768 RADIUS Proxy Listener 162
+Mwe 0x00005599f24d5a6d 0x00007f4f4369ce88 0x00005599f82e4fd0          0 0x00007f4f43695030 32336/32768 RADIUS Proxy Event Daemon 161
+Mwe 0x00005599f218e3e5 0x00007f4f43cc5eb8 0x00005599f862ed60          0 0x00007f4f43cb6030 64680/65536 Quack process 76
+Mwe 0x00005599f2164882 0x00007f4f4800eea8 0x00005599f826d990          0 0x00007f4f48007030 32368/32768 QoS Support Module 68
+Mwe 0x00005599f06ab8fb 0x00007f4f02ce5ea8 0x00005599f862f210         49 0x00007f4f02cde030 32048/32768 process_runq_checker 209
+Mwe 0x00005599f27bb658 0x00007f4f48e13e28 0x00005599f8322280          5 0x00007f4f48e0c030 32240/32768 ppp_timer_thread 127
+Lwe 0x00005599f1e02a8e 0x00007f4f0413fe78 0x00005599f862ed60        232 0x00007f4f04138030 25584/32768 pm_timer_thread 148
+Mwe 0x00005599f208c81d 0x00007f4f2c008e58 0x00005599f862ed60          0 0x00007f4f2c001030 31480/32768 pki_io_thread 141
+Mwe 0x00005599f20723dc 0x00007f4f0499ae88 0x00005599f862ed60          0 0x00007f4f04993030 31808/32768 PKI CMP Timer Thread 146
+Mwe 0x00005599f207492f 0x00007f4f049a5eb8 0x00005599f862ed60          0 0x00007f4f0499e030 32096/32768 PKI CMP Thread 145
+Msi 0x00005599f1e2b14e 0x00007f4f480d5e88 0x00005599f862ed60         41 0x00007f4f480ce030 31752/32768 PIX Garbage Collector 65
+Mwe 0x00005599f206974b 0x00007f4f049b0e98 0x00005599f862ed60          0 0x00007f4f049a9030 31824/32768 Periodic Cert Auth Timer Thread 144
+Mwe 0x00005599f206f342 0x00007f4f049bbe88 0x00005599f862ed60          0 0x00007f4f049b4030 31808/32768 Periodic Cert Auth Thread 143
+Mwe 0x00005599f1f18095 0x00007f4f039c0e88 0x00005599f862ed60          0 0x00007f4f039b9030 32064/32768 PBA interim logging timer Thread 164
+Mwe 0x00005599f256f9db 0x00007f4f038f1e38 0x00005599f862ed60         14 0x00007f4f038ea030 31464/32768 npshim_thread 177
+Msi 0x00005599f1e62602 0x00007f4f038b2d58 0x00005599f862ed60          0 0x00007f4f038ab030 25296/32768 NIC status poll 182
+Msi 0x00005599f154a9b2 0x00007f4f436e6eb8 0x00005599f862ed60          1 0x00007f4f436df030 31904/32768 netfs_vnode_reclaim 224
+Mwe 0x00005599f2616230 0x00007f4f432fccb8 0x00005599f862ed60          0 0x00007f4f48ce3030 31400/32768 netfs_thread_init 55
+Mwe 0x00005599f154a7f5 0x00007f4f43254e98 0x00005599f7963a70          0 0x00007f4f4324d030 31768/32768 netfs_mount_handler 111
+Mwe 0x00005599f14a8730 0x00007f4f03424e98 0x00005599f862ed60        268 0x00007f4f03415030 64216/65536 MLD 194
+Mwe 0x00005599f27a03ec 0x00007f4f032fcea8 0x00005599f88de6f0          0 0x00007f4f032ed030 64832/65536 lu_rx 207
+Lwe 0x00005599f27a0364 0x00007f4f032e9eb8 0x00005599f9b35fa0          0 0x00007f4f032e2030 32384/32768 lu_dynamic_sync 208
+Mwe 0x00005599f27a0209 0x00007f4f03907e48 0x00005599f9b360f0          4 0x00007f4f03900030 31720/32768 lu_ctl 175
+Mwe 0x00005599f2534b14 0x00007f4f4376ae78 0x00005599f82ec9e0          0 0x00007f4f43763030 31848/32768 Logger 86
+Mwe 0x00005599f2563d7b 0x00007f4f9ca0ccf8 0x00007f4f5401e398          3 0x00007f4f9ca05030 30960/32768 listen/ssh 225
+Mwe 0x00005599f20def5c 0x00007f4f9a61ae88 0x00005599f8232190          0 0x00007f4f9a613030 30632/32768 lina_inotify_file_monitor_thread 10
+Mwe 0x00005599f20ce563 0x00007f4f49332e78 0x00005599f81a81c0          0 0x00007f4f4932b030 31960/32768 lina_cmd_req_thread 12
+Mwe 0x00005599f20ce144 0x00007f4f9400ee68 0x00005599f51b3c50          0 0x00007f4f94007030 31944/32768 lina_cmd_local_resp_thread 11
+Mwe 0x00005599f13ebc8e 0x00007f4f9ae1ae28 0x00005599f8997650          0 0x00007f4f9ae13030 32144/32768 Lic TMR 117
+Mwe 0x00005599f13ebbdb 0x00007f4f49105e88 0x00005599f7957c90          2 0x00007f4f490fe030 32272/32768 Lic HA Cluster 118
+Mwe 0x00005599f27dc92f 0x00007f4f48e1ee68 0x00005599f862ed60          0 0x00007f4f48e17030 32032/32768 L2TP mgmt daemon 126
+Mwe 0x00005599f27da20b 0x00007f4f48e3fe78 0x00005599f862ed60          0 0x00007f4f48e38030 32048/32768 L2TP data daemon 125
+Mwe 0x00005599f1cd5de5 0x00007f4f9d150e58 0x00005599f862ed60          0 0x00007f4f9d149030 32016/32768 Key chain livekeys 1
+Mwe 0x00005599f1235a1b 0x00007f4f03442e68 0x00005599f862ed60          1 0x00007f4f03433030 59032/65536 IPv6 ND 192
+Mwe 0x00005599f123bc95 0x00007f4f03455e68 0x00005599f862ed60          0 0x00007f4f03446030 64544/65536 IPv6 Input 191
+Mwe 0x00005599f123b40b 0x00007f4f0342fe78 0x00005599f862ed60          5 0x00007f4f03428030 26952/32768 IPv6 IDB 193
+Mwe 0x00005599f082f69a 0x00007f4f490d9e48 0x00007f4f84472210          2 0x00007f4f490d2030 31608/32768 IPsec message handler 129
+Mwe 0x00005599f11be617 0x00007f4f03875d88 0x00005599f88de8c0          6 0x00007f4f03866030 64400/65536 IP Thread 186
+Mwe 0x00005599f1b7e281 0x00007f4f43728e28 0x00005599f862ed60          0 0x00007f4f43721030 29360/32768 IP RIB Update 137
+Mwe 0x00005599f1bcfefb 0x00007f4f43c76e78 0x00005599f862ed60          0 0x00007f4f43c6f030 30160/32768 IP Connected Route Background 135
+Mwe 0x00005599f1a28653 0x00007f4f43cd0e78 0x00005599f862ed60          0 0x00007f4f43cc9030 32032/32768 IP Background 134
+Mwe 0x00005599f1df8322 0x00007f4f48064ea8 0x00005599f8159990          0 0x00007f4f4805d030 32368/32768 IP Address Assign 66
+Mwe 0x00005599f10d3f86 0x00007f4f48e08ea8 0x00005599f862ed60          0 0x00007f4f48e01030 32080/32768 IKEv2 Mgd Timer Thread 155
+Mwe 0x00005599f10d3be5 0x00007f4f040dae98 0x00005599f862ed60          0 0x00007f4f040d3030 32064/32768 IKEv2 EAP Passthrough 154
+Mwe 0x00005599f110130b 0x00007f4f040e5b08 0x00005599f862ed60         28 0x00007f4f040de030 30440/32768 IKEv2 Daemon 153
+Mwe 0x00005599f10466e5 0x00007f4f04129e78 0x00005599f862ed60          0 0x00007f4f04122030 32048/32768 IKE Timekeeper 150
+Mwe 0x00005599f10033b8 0x00007f4f48d2cd68 0x00005599f862ed60          0 0x00007f4f48d25030 31336/32768 IKE Receiver 49
+Mwe 0x00005599f103744c 0x00007f4f0411eb18 0x00005599f7948320          0 0x00007f4f0410f030 64000/65536 IKE Daemon 151
+Mwe 0x00005599f0fffc9d 0x00007f4f04134e98 0x00005599f862ed60          0 0x00007f4f0412d030 31560/32768 IKE Common thread 149
+Mwe 0x00005599f1d63a31 0x00007f4f48cb6eb8 0x00005599f862ed60          0 0x00007f4f48ca7030 64880/65536 idfw_service 59
+Mwe 0x00005599f1d55668 0x00007f4f48cc9e98 0x00005599f862ed60          0 0x00007f4f48cba030 64584/65536 idfw_proc 58
+Mwe 0x00005599f1d67e1d 0x00007f4f48ca3e58 0x00005599f862ed60          0 0x00007f4f48c9c030 31512/32768 idfw_adagent 60
+Mwe 0x00005599f0f3af26 0x00007f4f03476d48 0x00005599f88de760          0 0x00007f4f0346f030 31800/32768 icmp_thread 188
+Mwe 0x00005599f21eb395 0x00007f4f48c98ea8 0x00005599f862ed60          0 0x00007f4f48c91030 32096/32768 ICMP event handler 132
+Mwe 0x00005599f0eec985 0x00007f4f0331ae78 0x00005599f862ed60          0 0x00007f4f03313030 32048/32768 ha_trans_data_tx 205
+Mwe 0x00005599f0eec985 0x00007f4f0339ee78 0x00005599f862ed60          0 0x00007f4f03397030 32048/32768 ha_trans_ctl_tx 204
+Mwe 0x00005599f0ea6f7c 0x00007f4f033fbde8 0x00005599f87b65e0          0 0x00007f4f033f4030 32176/32768 fover_tx_2 197
+Mwe 0x00005599f0ea6f7c 0x00007f4f03406de8 0x00005599f87b65d0          0 0x00007f4f033ff030 32176/32768 fover_tx 196
+Msi 0x00005599f0ec1cb5 0x00007f4f03912a48 0x00005599f862ed60         16 0x00007f4f0390b030 30768/32768 fover_thread 174
+Mwe 0x00005599f0eae07c 0x00007f4f03411a48 0x00005599f87bc040          0 0x00007f4f0340a030 31248/32768 fover_rx 195
+Mwe 0x00005599f0ecd5f4 0x00007f4f033e5848 0x00005599f87b6608          0 0x00007f4f033d6030 63504/65536 fover_rep 199
+Mwe 0x00005599f0ebdcd1 0x00007f4f033d2af8 0x00005599f87b6618         12 0x00007f4f033c3030 64192/65536 fover_parse 200
+Mwe 0x00005599f0ea9704 0x00007f4f033f0cd8 0x00005599f88de9a0          0 0x00007f4f033e9030 31896/32768 fover_ip 198
+Mwe 0x00005599f0e85a3d 0x00007f4f033b4e48 0x00005599f87b6950          5 0x00007f4f033ad030 32272/32768 fover_ifc_test 202
+Mwe 0x00005599f0e8e417 0x00007f4f033a96e8 0x00005599f862ed60          0 0x00007f4f033a2030 29672/32768 fover_health_monitoring_thread 203
+Mwe 0x00005599f0eddfbb 0x00007f4f0330fea8 0x00005599f862ed60          0 0x00007f4f03300030 60336/65536 fover_FSM_thread 206
+Mwe 0x00005599f0e8a2d5 0x00007f4f033bfec8 0x00005599f862ed60          0 0x00007f4f033b8030 32128/32768 fover_fail_check 201
+Mwe 0x00005599f0f00455 0x00007f4f9b20fe98 0x00005599f862ed60          0 0x00007f4f9b208030 32080/32768 Failover Smart License control thread 7
+Mwe 0x00005599f28f4ee8 0x00007f4f43691ab8 0x00005599f862ed60          0 0x00007f4f43682030 63464/65536 event manager 105
+Mwe 0x00005599f1429145 0x00007f4f43325e88 0x00005599f862ed60          0 0x00007f4f4331e030 32048/32768 entitlement request/response processing 109
+Msi 0x00005599f2278aab 0x00007f4f432b4ec8 0x00005599f862ed60         12 0x00007f4f432ad030 31920/32768 emweb/cifs_timer 110
+Mwe 0x00005599f27835a0 0x00007f4f48c82e98 0x00005599f862ed60          0 0x00007f4f48c7b030 32080/32768 Dynamic Filter VC Housekeeper 133
+Mwe 0x00005599f27979ad 0x00007f4f43d07e98 0x00005599f862ed60          0 0x00007f4f43d00030 32272/32768 Dynamic Filter cli handler 70
+Msi 0x00005599f0bee5ca 0x00007f4f43cf1e98 0x00005599f862ed60         32 0x00007f4f43cea030 30136/32768 DHCP Network Scope Monitor 72
+Lwe 0x00005599f0b70e58 0x00007f4f48e34df8 0x00005599f873e7e0          0 0x00007f4f48e2d030 31744/32768 dbgtrace 38
+Mwe 0x00005599f096a9b5 0x00007f4f4908fec8 0x00005599f862ed60          2 0x00007f4f49088030 31920/32768 cts_timer_task 33
+Mwe 0x00005599f0967d7c 0x00007f4f490a2ca8 0x00005599f86d60d0          2 0x00007f4f49093030 64192/65536 cts_task 32
+Msi 0x00005599f084a0da 0x00007f4f490cec08 0x00005599f862ed60        517 0x00007f4f490c7030 29768/32768 CTM message handler 130
+Mwe 0x00005599f083cb3b 0x00007f4f490c3e78 0x00005599f862ed60          0 0x00007f4f490bc030 32048/32768 CTM Daemon 29
+Mwe 0x00005599f07d6f55 0x00007f4f49084eb8 0x00005599f862ed60          0 0x00007f4f4907d030 32112/32768 CTCP Timer process 124
+Mwe 0x00005599f2007df5 0x00007f4f049c6ec8 0x00005599f862ed60          0 0x00007f4f049bf030 32024/32768 Crypto PKI RECV 142
+Mwe 0x00005599f2008768 0x00007f4f436d0e98 0x00005599f862ed60          0 0x00007f4f436c9030 31824/32768 Crypto CA 139
+Mrd 0x00005599f0cb44df 0x00007f4f0396be98 0x00005599f862f320          0 0x00007f4f03964030 32280/32768 CP Threat-Detection Processing 171
+Mrd 0x00005599f0cb41b5 0x00007f4f039b5ad8 0x00005599f862f320          0 0x00007f4f039ae030 30920/32768 CP Processing 165
+Mrd 0x00005599f0cb4ba5 0x00007f4f039aae88 0x00005599f862f320         18 0x00007f4f0399b030 62936/65536 CP Midpath Processing 166
+Mrd 0x00005599f0cb46d7 0x00007f4f03997e88 0x00005599f862f320          0 0x00007f4f03990030 32264/32768 CP HA Processing 167
+Mrd 0x00005599f0cb48b7 0x00007f4f03976e98 0x00005599f862f320          0 0x00007f4f0396f030 32280/32768 CP DP SFR Event Processing 170
+Mrd 0x00005599f0cb47c7 0x00007f4f03981e98 0x00005599f862f320          0 0x00007f4f0397a030 30408/32768 CP DP CXSC Event Processing 169
+Mrd 0x00005599f0cb467f 0x00007f4f0398ce88 0x00005599f862f320          1 0x00007f4f03985030 32208/32768 CP ARP Processing 168
+Mwe 0x00005599f07bbc36 0x00007f4f490efe88 0x00005599f665bd60          0 0x00007f4f490e8030 31712/32768 Config History Thread 25
+Mwe 0x00005599f073b0e5 0x00007f4f49110ea8 0x00005599f862ed60          0 0x00007f4f49109030 32096/32768 CMGR Timer Process 22
+Mwe 0x00005599f073b03c 0x00007f4f49123e98 0x00005599f8638d30          0 0x00007f4f49114030 64896/65536 CMGR Server Process 21
+Mwe 0x00005599f09c5a2d 0x00007f4f48dc8e98 0x00005599f862ed60          0 0x00007f4f48dc1030 31856/32768 cluster interface health monitor 43
+Mrd 0x00005599f0cb4acb 0x00007f4f03960af8 0x00005599f862f320          0 0x00007f4f03959030 31352/32768 Cluster event-queue processing thread 172
+Mwe 0x00005599f1ed778a 0x00007f4f43d12e88 0x00005599f815d740          0 0x00007f4f43d0b030 32336/32768 Client Update Task 69
+Mwe 0x00005599f0bb81e1 0x00007f4f039554b8 0x00005599f4dc7d68        473 0x00007f4f03916030 248640/262144 ci/console 173
+Mwe 0x00005599f2ff6245 0x00007f4f48c77e38 0x00005599f862ed60          0 0x00007f4f48c70030 31968/32768 Chunk Manager 64
+Lwe 0x00005599f314144d 0x00007f4f43cfcea8 0x00005599f862ed60          2 0x00007f4f43cf5030 31760/32768 Checkheaps 71
+Mwe 0x00005599f205378c 0x00007f4f436baea8 0x00005599f862ed60          0 0x00007f4f436b3030 31560/32768 CERT API 140
+Lwe 0x00005599f068d902 0x00007f4f9d024df8 0x00005599f862ec20          0 0x00007f4f9d01d030 31616/32768 block_diag 3
+Mwe 0x00005599f070d6b5 0x00007f4f4912ee78 0x00005599f862ed60          0 0x00007f4f49127030 32048/32768 Attribute Manager Thread 20
+Msi 0x00005599f11c5071 0x00007f4f9b64cea8 0x00005599f862ed60         90 0x00007f4f9b645030 31848/32768 arp_timer 115
+Mwe 0x00005599f11d226f 0x00007f4f9b21adf8 0x00005599f88de840          0 0x00007f4f9b213030 32192/32768 arp_forward_thread 116
+Mwe 0x00005599f11c8486 0x00007f4f03862e78 0x00005599f88df9e0          9 0x00007f4f0385b030 30400/32768 ARP Thread 187
+Mwe 0x00005599f06c347b 0x00007f4f4347ce18 0x00005599f862ed60          0 0x00007f4f43475030 31512/32768 aggregate_auth_task 106
+Mwe 0x00005599f2616230 0x00007f4f48cffcb8 0x00005599f862ed60          1 0x00007f4f4913d030 30520/32768 aaa_shim_thread 18
+Mwe 0x00005599f254af52 0x00007f4f49139978 0x00007f4f85e357b8          0 0x00007f4f49132030 30960/32768 aaa-url-redirect-task 19
+Mwe 0x00005599f06d68ac 0x00007f4f4915aab8 0x00005599f8631990        242 0x00007f4f49153030 27544/32768 aaa 16
+ -                   -                  -                  -        617                  -      -      PTHREAD-2279
+ -                   -                  -                  -        331                  -      -      PTHREAD-2280
+ -                   -                  -                  -        329                  -      -      PTHREAD-2281
+ -                   -                  -                  -        302                  -      -      PTHREAD-2282
+ -                   -                  -                  -        296                  -      -      PTHREAD-2283
+ -                   -                  -                  -        299                  -      -      PTHREAD-2284
+ -                   -                  -                  -        306                  -      -      PTHREAD-2285
+ -                   -                  -                  -        389                  -      -      PTHREAD-2286
+ -                   -                  -                  -        305                  -      -      PTHREAD-2287
+ -                   -                  -                  -        326                  -      -      PTHREAD-2288
+ -                   -                  -                  -        297                  -      -      PTHREAD-2289
+ -                   -                  -                  -        288                  -      -      PTHREAD-2290
+ -                   -                  -                  -        307                  -      -      PTHREAD-2291
+ -                   -                  -                  -        402                  -      -      PTHREAD-2292
+ -                   -                  -                  -        306                  -      -      PTHREAD-2293
+ -                   -                  -                  -        316                  -      -      PTHREAD-2294
+ -                   -                  -                  -    5969002                  -      -      scheduler
+ -                   -                  -                  -   95694467                  -      -      total elapsed
+
+------------------ show kernel process ------------------
+
+
+ PID PPID PRI  NI       VSIZE      RSS                WCHAN STAT  RUNTIME    GTIME   CGTIME COMMAND
+
+   1    0  20   0     4317184     1372                    1    S      183        0        0 init
+
+   2    0  20   0           0        0                    1    S        0        0        0 kthreadd
+
+   3    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/0
+
+   5    2   0 -20           0        0                    1    S        0        0        0 kworker/0:0H
+
+   7    2  20   0           0        0                    1    S       19        0        0 rcu_sched
+
+   8    2  20   0           0        0                    1    S        0        0        0 rcu_bh
+
+   9    2  RT   0           0        0                    1    S        0        0        0 migration/0
+
+  10    2  RT   0           0        0                    1    S        0        0        0 migration/1
+
+  11    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/1
+
+  12    2  20   0           0        0                    1    S        0        0        0 kworker/1:0
+
+  13    2   0 -20           0        0                    1    S        0        0        0 kworker/1:0H
+
+  14    2  RT   0           0        0                    1    S        0        0        0 migration/2
+
+  15    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/2
+
+  17    2   0 -20           0        0                    1    S        0        0        0 kworker/2:0H
+
+  18    2  RT   0           0        0                    1    S        0        0        0 migration/3
+
+  19    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/3
+
+  20    2  20   0           0        0                    1    S        0        0        0 kworker/3:0
+
+  21    2   0 -20           0        0                    1    S        0        0        0 kworker/3:0H
+
+  22    2  RT   0           0        0                    1    S        0        0        0 migration/4
+
+  23    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/4
+
+  24    2  20   0           0        0                    1    S        0        0        0 kworker/4:0
+
+  25    2   0 -20           0        0                    1    S        0        0        0 kworker/4:0H
+
+  26    2  RT   0           0        0                    1    S        0        0        0 migration/5
+
+  27    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/5
+
+  29    2   0 -20           0        0                    1    S        0        0        0 kworker/5:0H
+
+  30    2  RT   0           0        0                    1    S        0        0        0 migration/6
+
+  31    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/6
+
+  32    2  20   0           0        0                    1    S        0        0        0 kworker/6:0
+
+  33    2   0 -20           0        0                    1    S        0        0        0 kworker/6:0H
+
+  34    2  RT   0           0        0                    1    S        0        0        0 migration/7
+
+  35    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/7
+
+  37    2   0 -20           0        0                    1    S        0        0        0 kworker/7:0H
+
+  38    2  RT   0           0        0                    1    S        0        0        0 migration/8
+
+  39    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/8
+
+  41    2   0 -20           0        0                    1    S        0        0        0 kworker/8:0H
+
+  42    2  RT   0           0        0                    1    S        0        0        0 migration/9
+
+  43    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/9
+
+  45    2   0 -20           0        0                    1    S        0        0        0 kworker/9:0H
+
+  46    2  RT   0           0        0                    1    S        0        0        0 migration/10
+
+  47    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/10
+
+  48    2  20   0           0        0                    1    S        0        0        0 kworker/10:0
+
+  49    2   0 -20           0        0                    1    S        0        0        0 kworker/10:0H
+
+  50    2  RT   0           0        0                    1    S        0        0        0 migration/11
+
+  51    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/11
+
+  52    2  20   0           0        0                    1    S        0        0        0 kworker/11:0
+
+  53    2   0 -20           0        0                    1    S        0        0        0 kworker/11:0H
+
+  54    2  RT   0           0        0                    1    S        0        0        0 migration/12
+
+  55    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/12
+
+  56    2  20   0           0        0                    1    S        0        0        0 kworker/12:0
+
+  57    2   0 -20           0        0                    1    S        0        0        0 kworker/12:0H
+
+  58    2  RT   0           0        0                    1    S        0        0        0 migration/13
+
+  59    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/13
+
+  60    2  20   0           0        0                    1    S        0        0        0 kworker/13:0
+
+  61    2   0 -20           0        0                    1    S        0        0        0 kworker/13:0H
+
+  62    2  RT   0           0        0                    1    S        0        0        0 migration/14
+
+  63    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/14
+
+  64    2  20   0           0        0                    1    S        0        0        0 kworker/14:0
+
+  65    2   0 -20           0        0                    1    S        0        0        0 kworker/14:0H
+
+  66    2  RT   0           0        0                    1    S        0        0        0 migration/15
+
+  67    2  20   0           0        0                    1    S        0        0        0 ksoftirqd/15
+
+  68    2  20   0           0        0                    1    S        0        0        0 kworker/15:0
+
+  69    2   0 -20           0        0                    1    S        0        0        0 kworker/15:0H
+
+  70    2   0 -20           0        0                    1    S        0        0        0 khelper
+
+  71    2  20   0           0        0                    1    S        0        0        0 kdevtmpfs
+
+  72    2   0 -20           0        0                    1    S        0        0        0 netns
+
+  73    2   0 -20           0        0                    1    S        0        0        0 perf
+
+  74    2   0 -20           0        0                    1    S        0        0        0 writeback
+
+  75    2   0 -20           0        0                    1    S        0        0        0 crypto
+
+  77    2   0 -20           0        0                    1    S        0        0        0 kintegrityd
+
+  78    2   0 -20           0        0                    1    S        0        0        0 bioset
+
+  79    2   0 -20           0        0                    1    S        0        0        0 kblockd
+
+  80    2   0 -20           0        0                    1    S        0        0        0 md
+
+  81    2  20   0           0        0                    1    S       23        0        0 kworker/1:1
+
+  84    2  20   0           0        0                    1    S        5        0        0 kworker/8:1
+
+  86    2  20   0           0        0                    1    S        4        0        0 kworker/9:1
+
+  87    2  20   0           0        0                    1    S        4        0        0 kworker/5:1
+
+  88    2  20   0           0        0                    1    S        7        0        0 kworker/4:1
+
+  89    2  20   0           0        0                    1    S        6        0        0 kworker/3:1
+
+  90    2  20   0           0        0                    1    S        6        0        0 kworker/14:1
+
+  91    2  20   0           0        0                    1    S        7        0        0 kworker/12:1
+
+  94    2  20   0           0        0                    1    S        0        0        0 kswapd0
+
+  95    2  20   0           0        0                    1    S        0        0        0 fsnotify_mark
+
+ 104    2   0 -20           0        0                    1    S        0        0        0 acpi_thermal_pm
+
+ 106    2   0 -20           0        0                    1    S        0        0        0 mpt_poll_0
+
+ 107    2   0 -20           0        0                    1    S        0        0        0 mpt/0
+
+ 110    2  20   0           0        0                    1    S        0        0        0 scsi_eh_0
+
+ 111    2   0 -20           0        0                    1    S        0        0        0 scsi_tmf_0
+
+ 113    2   0 -20           0        0                    1    S        0        0        0 ipv6_addrconf
+
+ 114    2  20   0           0        0                    1    S        0        0        0 kworker/0:2
+
+ 115    2   0 -20           0        0                    1    S        0        0        0 deferwq
+
+ 148    1  20   0    22257664     2572                    1    S        4        0        0 udevd
+
+ 203  148  20   0    22253568     2244                    1    S        0        0        0 udevd
+
+ 204  148  20   0    22253568     1804                    1    S        0        0        0 udevd
+
+ 212    2   0 -20           0        0                    1    S        0        0        0 kworker/13:1H
+
+ 214    2  20   0           0        0                    1    S        7        0        0 kworker/11:2
+
+ 215    2   0 -20           0        0                    1    S        3        0        0 kworker/6:1H
+
+ 216    2  20   0           0        0                    1    S        6        0        0 kworker/6:2
+
+ 217    2  20   0           0        0                    1    S        7        0        0 kworker/13:2
+
+ 218    2   0 -20           0        0                    1    S        0        0        0 kworker/0:1H
+
+ 219    2   0 -20           0        0                    1    S        0        0        0 kworker/15:1H
+
+ 594    2   0 -20           0        0                    1    S        0        0        0 kworker/5:1H
+
+ 601    2   0 -20           0        0                    1    S        0        0        0 kworker/8:1H
+
+ 624    2   0 -20           0        0                    1    S        0        0        0 kworker/11:1H
+
+ 645    2   0 -20           0        0                    1    S        0        0        0 kworker/7:1H
+
+ 678    2   0 -20           0        0                    1    S        0        0        0 kworker/10:1H
+
+ 683    2   0 -20           0        0                    1    S        0        0        0 kworker/u33:0
+
+ 684    2   0 -20           0        0                    1    S        0        0        0 kloopd0
+
+ 690    2   0 -20           0        0                    1    S        0        0        0 kworker/u33:3
+
+ 711    2   0 -20           0        0                    1    S        0        0        0 kworker/1:1H
+
+ 735    2   0 -20           0        0                    1    S        0        0        0 kdmflush
+
+ 736    2   0 -20           0        0                    1    S        0        0        0 bioset
+
+ 737    2   0 -20           0        0                    1    S        0        0        0 kcryptd_io
+
+ 738    2   0 -20           0        0                    1    S        0        0        0 kcryptd
+
+ 739    2  20   0           0        0                    1    S        0        0        0 dmcrypt_write
+
+ 740    2   0 -20           0        0                    1    S        0        0        0 bioset
+
+ 744    2   0 -20           0        0                    1    S        0        0        0 kworker/14:1H
+
+ 751    2   0 -20           0        0                    1    S        0        0        0 kworker/3:1H
+
+ 757    2   0 -20           0        0                    1    S        0        0        0 kworker/2:1H
+
+ 762    2  20   0           0        0                    1    S        0        0        0 kjournald
+
+2226    1  20   0     9748480     2324                    1    S        0        0        0 asa_cmd_init
+
+2227    1  20   0     9748480     2308                    1    S        0        0        0 run_cmd
+
+2228    1  20   0     9744384     2392                    1    S        0        0        0 run_adi
+
+2230 2228  20   0  1479397376    19156                    0    S     1407        0        0 start-adi
+
+2232 2227  20   0    21442560     1964                    0    S       70        0        0 lina_monitor
+
+2277 2232   0 -20  2942500864  1076968                    0    S    41186        0        0 lina
+
+2295 2226  20   0    67526656    10592                    1    S        4        0        0 asa_cmd_server.
+
+2300    2  20   0           0        0                    1    S        6        0        0 kworker/u32:5
+
+2301    2   0 -20           0        0                    1    S        0        0        0 kworker/4:1H
+
+2307 2277   0 -20     9744384     2516                    1    S        0        0        0 sh
+
+2309 2307   0 -20  1113227264     7996                    0    S      112        0        0 smart_agent
+
+2349    2   0 -20           0        0                    1    S        0        0        0 kworker/12:1H
+
+2351    2  20   0           0        0                    1    S        2        0        0 kworker/u32:0
+
+2352    2  20   0           0        0                    1    S        3        0        0 kworker/2:2
+
+2353    2  20   0           0        0                    1    S        5        0        0 kworker/0:1
+
+2355    2  20   0           0        0                    1    S        2        0        0 kworker/9:2
+
+2357    2  20   0           0        0                    1    S        1        0        0 kworker/7:2
+
+2358    2  20   0           0        0                    1    S        1        0        0 kworker/5:0
+
+2359    2  20   0           0        0                    1    S        0        0        0 kworker/8:2
+
+2360    2  20   0           0        0                    1    S        0        0        0 kworker/15:2
+
+2361    2  20   0           0        0                    1    S        0        0        0 kworker/7:0
+
+2362    2  20   0           0        0                    1    S        0        0        0 kworker/10:1
+
+2363    2  20   0           0        0                    1    S        0        0        0 kworker/2:1
+
+2364    2  20   0           0        0                    1    S        0        0        0 kworker/8:0
+
+2365    2  20   0           0        0                    1    S        0        0        0 kworker/14:2
+
+2366    2  20   0           0        0                    1    S        0        0        0 kworker/11:1
+
+------------------ show message-layer info ------------------
+
+ Maximum lock wait time 0 (msec) avg time 0 (msec) 
+ Maximum callback exec time 0 in msec 
+ Callback bitmap 0x0 
+ Total Sequential send message count 0 
+ Channel prioritization value: 0 
+
+ channel name: lina_msglyr_cmd_channel_pub pattern: pub_sub role: pub
+notify error 0 closed: 0 blocked: 0 notify: 0 notifystate: 0x0
+ seq send: 0 queue_depth: 0 count: 0
+ Total Send Messages: 2 Recv Messages: 0 
+
+ channel name: lina_msglyr_cmd_channel_sub pattern: pub_sub role: sub
+notify error 0 closed: 0 blocked: 0 notify: 1 notifystate: 0x100
+ seq send: 0 queue_depth: 0 count: 0
+ Total Send Messages: 0 Recv Messages: 2 
+
+ channel name: VPN Status Channel pattern: async_router role: async_worker
+notify error 0 closed: 0 blocked: 0 notify: 1 notifystate: 0x100
+ seq send: 1 queue_depth: 200 count: 0
+ Total Send Messages: 0 Recv Messages: 0 
+
+ channel name: VPN Update Channel pattern: pub_sub role: pub
+notify error 0 closed: 0 blocked: 0 notify: 0 notifystate: 0x0
+ seq send: 0 queue_depth: 0 count: 0
+ Total Send Messages: 0 Recv Messages: 0 
+
+ channel name: adi-status-sub pattern: pub_sub role: sub
+notify error 0 closed: 0 blocked: 0 notify: 1 notifystate: 0x100
+ seq send: 0 queue_depth: 0 count: 0
+ Total Send Messages: 0 Recv Messages: 0 
+
+
+------------------ show cluster interface-mode ------------------
+
+no cluster interface-mode
+
+------------------ show failover ------------------
+
+Failover Off 
+Failover unit Secondary
+Failover LAN Interface: not Configured
+Reconnect timeout 0:00:00
+Unit Poll frequency 1 seconds, holdtime 15 seconds
+Interface Poll frequency 5 seconds, holdtime 25 seconds
+Interface Policy 1
+Monitored Interfaces 1 of 1285 maximum
+MAC Address Move Notification Interval not set
+
+------------------ show failover history ------------------
+
+==========================================================================
+From State                 To State                   Reason
+==========================================================================
+18:06:06 UTC Dec 26 2020
+Not Detected               Disabled                   No Error
+
+==========================================================================
+
+------------------ show traffic ------------------
+
+management:
+	received (in 5965.620 secs):
+		4473 packets	279885 bytes
+		0 pkts/sec	46 bytes/sec
+	transmitted (in 5965.620 secs):
+		11562 packets	1621548 bytes
+		1 pkts/sec	271 bytes/sec
+      1 minute input rate 0 pkts/sec,  12 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 1 pkts/sec,  82 bytes/sec
+      5 minute output rate 7 pkts/sec,  1195 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+nlp_int_tap:
+	received (in 5965.680 secs):
+		10 packets	756 bytes
+		0 pkts/sec	0 bytes/sec
+	transmitted (in 5965.680 secs):
+		5 packets	300 bytes
+		0 pkts/sec	0 bytes/sec
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  0 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+
+----------------------------------------
+Aggregated Traffic on Physical Interface
+----------------------------------------
+GigabitEthernet0/0:
+	received (in 5965.780 secs):
+		772 packets	138398 bytes
+		0 pkts/sec	23 bytes/sec
+	transmitted (in 5965.780 secs):
+		0 packets	0 bytes
+		0 pkts/sec	0 bytes/sec
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  11 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+GigabitEthernet0/1:
+	received (in 5965.800 secs):
+		1023 packets	138895 bytes
+		0 pkts/sec	23 bytes/sec
+	transmitted (in 5965.800 secs):
+		0 packets	0 bytes
+		0 pkts/sec	0 bytes/sec
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  0 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+GigabitEthernet0/2:
+	received (in 5965.880 secs):
+		1023 packets	138895 bytes
+		0 pkts/sec	23 bytes/sec
+	transmitted (in 5965.880 secs):
+		0 packets	0 bytes
+		0 pkts/sec	0 bytes/sec
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  0 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+Internal-Data0/0:
+	received (in 5965.890 secs):
+		10 packets	896 bytes
+		0 pkts/sec	0 bytes/sec
+	transmitted (in 5965.890 secs):
+		5 packets	370 bytes
+		0 pkts/sec	0 bytes/sec
+      1 minute input rate 0 pkts/sec,  0 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 0 pkts/sec,  0 bytes/sec
+      5 minute output rate 0 pkts/sec,  0 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+Management0/0:
+	received (in 5965.970 secs):
+		4485 packets	375829 bytes
+		0 pkts/sec	62 bytes/sec
+	transmitted (in 5965.970 secs):
+		11644 packets	1801108 bytes
+		1 pkts/sec	301 bytes/sec
+      1 minute input rate 0 pkts/sec,  17 bytes/sec
+      1 minute output rate 0 pkts/sec,  0 bytes/sec
+      1 minute drop rate, 0 pkts/sec
+      5 minute input rate 1 pkts/sec,  123 bytes/sec
+      5 minute output rate 7 pkts/sec,  1307 bytes/sec
+      5 minute drop rate, 0 pkts/sec
+
+------------------ show perfmon ------------------
+
+
+PERFMON STATS:                     Current      Average
+Xlates                                0/s          0/s
+Connections                           0/s          0/s
+TCP Conns                             0/s          0/s
+UDP Conns                             0/s          0/s
+URL Access                            0/s          0/s
+URL Server Req                        0/s          0/s
+TCP Fixup                             0/s          0/s
+TCP Intercept Established Conns       0/s          0/s
+TCP Intercept Attempts                0/s          0/s
+TCP Embryonic Conns Timeout           0/s          0/s
+FTP Fixup                             0/s          0/s
+AAA Authen                            0/s          0/s
+AAA Author                            0/s          0/s
+AAA Account                           0/s          0/s
+HTTP Fixup                            0/s          0/s
+
+VALID CONNS RATE in TCP INTERCEPT:    Current      Average
+                                       100.00%         100.00%
+
+------------------ show counters ------------------
+
+Protocol     Counter                                       Value   Context
+IP           IN_PKTS                                        1059   Summary
+IP           OUT_PKTS                                         14   Summary
+IP           TO_ARP                                         1049   Summary
+IP           TO_ICMP                                          10   Summary
+ICMP         IN_PKTS                                          10   Summary
+SSLERR       BAD_SIGNATURE                                     1   Summary
+SSLERR       LENGTH_MISMATCH                                   1   Summary
+SSLDEV       NEW_CTX                                           1   Summary
+NPSHIM       CTX_ALLOC                                        22   Summary
+NPSHIM       CTX_FREE                                         19   Summary
+NPSHIM       WRITE_UNBLOCKED                                 872   Summary
+NPSHIM       READ_RECV                                       866   Summary
+VPIF         BAD_VALUE                                       138   Summary
+VPIF         NOT_FOUND                                    802640   Summary
+CRYPTO       RSA_HANDLE_ALLOCATED                             29   Summary
+CRYPTO       RSA_HANDLE_RELEASED                              49   Summary
+
+------------------ show asp drop ------------------
+
+
+Frame drop:
+  No route to host (no-route)                                                 14
+  Reverse-path verify failed (rpf-violated)                                    1
+  Slowpath security checks failed (sp-security-failed)                        62
+  FP L2 rule drop (l2_acl)                                                    10
+  Interface is down (interface-down)                                           1
+  Dropped pending packets in a closed socket (np-socket-closed)                4
+
+Last clearing: Never
+
+Flow drop:
+
+Last clearing: Never
+
+------------------ show asp event dp-cp ------------------
+
+DP-CP EVENT QUEUE                  QUEUE-LEN  HIGH-WATER
+Punt Event Queue                           0           0
+Routing Event Queue                        0           0
+Identity-Traffic Event Queue               0           1
+PTP-Traffic Event Queue                    0           0
+General Event Queue                        0           0
+Syslog Event Queue                         0           0
+Non-Blocking Event Queue                   0           0
+Midpath High Event Queue                   0           1
+Midpath Norm Event Queue                   0           2
+Crypto Event Queue                         0           0
+HA Event Queue                             0           0
+Threat-Detection Event Queue               0           0
+SCP Event Queue                            0           0
+ARP Event Queue                            0         325
+IDFW Event Queue                           0           0
+CXSC Event Queue                           0           0
+BFD Event Queue                            0           0
+SFR Event Queue                            0           0
+Cluster Event Queue                        0           0
+
+EVENT-TYPE          ALLOC ALLOC-FAIL ENQUEUED ENQ-FAIL  RETIRED 15SEC-RATE
+midpath-high           20          0       20        0       20          0
+midpath-norm         1751          0     1751        0     1751         16
+arp-in               1049          0     1049        0     1049          0
+identity-traffic       10          0       10        0       10          0
+
+------------------ show asp table socket ------------------
+
+
+
+Protocol   Socket    State      Local Address                                Foreign Address
+TCP        03d097d8  LISTEN     20.42.0.20:22                                0.0.0.0:*                                    
+TCP        03d0ddc8  ESTAB      20.42.0.20:22                                10.24.196.147:49544                          
+
+------------------ show service-policy ------------------
+
+
+Global policy: 
+  Service-policy: global_policy
+    Class-map: inspection_default
+      Inspect: ip-options _default_ip_options_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+RTRALT         allow 0, clear 0
+      Inspect: netbios, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: rtsp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: sunrpc, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: tftp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: xdmcp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: dns preset_dns_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        message-length maximum client auto, drop 0
+        message-length maximum 512, drop 0
+        dns-guard, count 0
+        protocol-enforcement, drop 0
+        nat-rewrite, count 0
+      Inspect: ftp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: h323 h225 _default_h323_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+        h245-tunnel-block drops 0 connection
+      Inspect: h323 ras _default_h323_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        h245-tunnel-block drops 0 connection
+      Inspect: rsh, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: esmtp _default_esmtp_map, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+        mask-banner, count 0
+        allow-tls, count 0
+        match cmd line length gt 512 
+          drop-connection log, packet 0
+        match cmd RCPT count gt 100 
+          drop-connection log, packet 0
+        match body line length gt 998 
+          log, packet 0
+        match header line length gt 998 
+          drop-connection log, packet 0
+        match sender-address length gt 320 
+          drop-connection log, packet 0
+        match MIME filename length gt 255 
+          drop-connection log, packet 0
+        match ehlo-reply-parameter others 
+          mask, packet 0
+      Inspect: sqlnet, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+      Inspect: sip , packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: skinny , packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+               tcp-proxy: bytes in buffer 0, bytes dropped 0
+      Inspect: snmp, packet 0, lock fail 0, drop 0, reset-drop 0, 5-min-pkt-rate 0 pkts/sec, v6-fail-close 0 sctp-drop-override 0
+
+------------------ show capture ------------------
+
+
+------------------ show resource usage counter all 1 ------------------
+
+Resource                 Current        Peak      Limit        Denied Context
+SSH Server                     1           2          5             0 System
+Conns                          1           3        100             0 System
+Hosts                          2           5        N/A             0 System
+Inspects [rate]                0           4        N/A             0 System
+Routes                         9           9  unlimited             0 System
+
+------------------ show mode ------------------
+
+Security context mode: single 
+
+------------------ show history ------------------
+
+  enable
+  terminal pager 0
+  ter pa 0
+
+------------------ show firewall ------------------
+
+Firewall mode: Router
+
+------------------ show running-config ------------------
+
+: Saved
+
+: 
+: Serial Number: 9AL0MA5QEKM
+: Hardware:   ASAv, 32256 MB RAM, CPU Xeon E5 series 2200 MHz, 1 CPU (16 cores)
+:
+ASA Version 9.14(1)6 
+!
+hostname ciscoasa
+enable password <removed> pbkdf2
+service-module 0 keepalive-timeout 4
+service-module 0 keepalive-counter 6
+names
+no mac-address auto
+
+!
+interface GigabitEthernet0/0
+ shutdown
+ no nameif
+ no security-level
+ no ip address
+!
+interface GigabitEthernet0/1
+ shutdown
+ no nameif
+ no security-level
+ no ip address
+!
+interface GigabitEthernet0/2
+ shutdown
+ no nameif
+ no security-level
+ no ip address
+!
+interface Management0/0
+ no management-only
+ nameif management
+ security-level 0
+ ip address 20.42.0.20 255.255.255.0 
+!
+ftp mode passive
+pager lines 23
+mtu management 1500
+no failover
+no failover wait-disable
+icmp unreachable rate-limit 1 burst-size 1
+no asdm history enable
+arp timeout 14400
+no arp permit-nonconnected
+arp rate-limit 32768
+route management 0.0.0.0 0.0.0.0 20.42.0.1 1
+timeout xlate 3:00:00
+timeout pat-xlate 0:00:30
+timeout conn 1:00:00 half-closed 0:10:00 udp 0:02:00 sctp 0:02:00 icmp 0:00:02
+timeout sunrpc 0:10:00 h323 0:05:00 h225 1:00:00 mgcp 0:05:00 mgcp-pat 0:05:00
+timeout sip 0:30:00 sip_media 0:02:00 sip-invite 0:03:00 sip-disconnect 0:02:00
+timeout sip-provisional-media 0:02:00 uauth 0:05:00 absolute
+timeout tcp-proxy-reassembly 0:01:00
+timeout floating-conn 0:00:00
+timeout conn-holddown 0:00:15
+timeout igp stale-route 0:01:10
+user-identity default-domain LOCAL
+aaa authentication ssh console LOCAL 
+aaa authentication login-history
+no snmp-server location
+no snmp-server contact
+crypto ipsec security-association pmtu-aging infinite
+crypto ca trustpoint _SmartCallHome_ServerCA
+ no validation-usage
+ crl configure
+crypto ca trustpool policy
+ auto-import
+crypto ca certificate chain _SmartCallHome_ServerCA
+ certificate ca 0509
+    308205b7 3082039f a0030201 02020205 09300d06 092a8648 86f70d01 01050500 
+    3045310b 30090603 55040613 02424d31 19301706 0355040a 13105175 6f566164 
+    6973204c 696d6974 6564311b 30190603 55040313 1251756f 56616469 7320526f 
+    6f742043 41203230 1e170d30 36313132 34313832 3730305a 170d3331 31313234 
+    31383233 33335a30 45310b30 09060355 04061302 424d3119 30170603 55040a13 
+    1051756f 56616469 73204c69 6d697465 64311b30 19060355 04031312 51756f56 
+    61646973 20526f6f 74204341 20323082 0222300d 06092a86 4886f70d 01010105 
+    00038202 0f003082 020a0282 0201009a 18ca4b94 0d002daf 03298af0 0f81c8ae 
+    4c19851d 089fab29 4485f32f 81ad321e 9046bfa3 86261a1e fe7e1c18 3a5c9c60 
+    172a3a74 8333307d 615411cb edabe0e6 d2a27ef5 6b6f18b7 0a0b2dfd e93eef0a 
+    c6b310e9 dcc24617 f85dfda4 daff9e49 5a9ce633 e62496f7 3fba5b2b 1c7a35c2 
+    d667feab 66508b6d 28602bef d760c3c7 93bc8d36 91f37ff8 db1113c4 9c7776c1 
+    aeb7026a 817aa945 83e205e6 b956c194 378f4871 6322ec17 6507958a 4bdf8fc6 
+    5a0ae5b0 e35f5e6b 11ab0cf9 85eb44e9 f80473f2 e9fe5c98 8cf573af 6bb47ecd 
+    d45c022b 4c39e1b2 95952d42 87d7d5b3 9043b76c 13f1dedd f6c4f889 3fd175f5 
+    92c391d5 8a88d090 ecdc6dde 89c26571 968b0d03 fd9cbf5b 16ac92db eafe797c 
+    adebaff7 16cbdbcd 252be51f fb9a9fe2 51cc3a53 0c48e60e bdc9b476 0652e611 
+    13857263 0304e004 362b2019 02e874a7 1fb6c956 66f07525 dc67c10e 616088b3 
+    3ed1a8fc a3da1db0 d1b12354 df44766d ed41d8c1 b222b653 1cdf351d dca1772a 
+    31e42df5 e5e5dbc8 e0ffe580 d70b63a0 ff33a10f ba2c1515 ea97b3d2 a2b5bef2 
+    8c961e1a 8f1d6ca4 6137b986 7333d797 969e237d 82a44c81 e2a1d1ba 675f9507 
+    a32711ee 16107bbc 454a4cb2 04d2abef d5fd0c51 ce506a08 31f991da 0c8f645c 
+    03c33a8b 203f6e8d 673d3ad6 fe7d5b88 c95efbcc 61dc8b33 77d34432 35096204 
+    921610d8 9e2747fb 3b21e3f8 eb1d5b02 03010001 a381b030 81ad300f 0603551d 
+    130101ff 04053003 0101ff30 0b060355 1d0f0404 03020106 301d0603 551d0e04 
+    1604141a 8462bc48 4c332504 d4eed0f6 03c41946 d1946b30 6e060355 1d230467 
+    30658014 1a8462bc 484c3325 04d4eed0 f603c419 46d1946b a149a447 3045310b 
+    30090603 55040613 02424d31 19301706 0355040a 13105175 6f566164 6973204c 
+    696d6974 6564311b 30190603 55040313 1251756f 56616469 7320526f 6f742043 
+    41203282 02050930 0d06092a 864886f7 0d010105 05000382 0201003e 0a164d9f 
+    065ba8ae 715d2f05 2f67e613 4583c436 f6f3c026 0c0db547 645df8b4 72c946a5 
+    03182755 89787d76 ea963480 1720dce7 83f88dfc 07b8da5f 4d2e67b2 84fdd944 
+    fc775081 e67cb4c9 0d0b7253 f8760707 4147960c fbe08226 93558cfe 221f6065 
+    7c5fe726 b3f73290 9850d437 7155f692 2178f795 79faf82d 26876656 3077a637 
+    78335210 58ae3f61 8ef26ab1 ef187e4a 5963ca8d a256d5a7 2fbc561f cf39c1e2 
+    fb0aa815 2c7d4d7a 63c66c97 443cd26f c34a170a f890d257 a21951a5 2d9741da 
+    074fa950 da908d94 46e13ef0 94fd1000 38f53be8 40e1b46e 561a20cc 6f588ded 
+    2e458fd6 e9933fe7 b12cdf3a d6228cdc 84bb226f d0f8e4c6 39e90488 3cc3baeb 
+    557a6d80 9924f56c 01fbf897 b0945beb fdd26ff1 77680d35 6423acb8 55a103d1 
+    4d4219dc f8755956 a3f9a849 79f8af0e b911a07c b76aed34 d0b62662 381a870c 
+    f8e8fd2e d3907f07 912a1dd6 7e5c8583 99b03808 3fe95ef9 3507e4c9 626e577f 
+    a75095f7 bac89be6 8ea201c5 d666bf79 61f33c1c e1b9825c 5da0c3e9 d848bd19 
+    a2111419 6eb2861b 683e4837 1a88b75d 965e9cc7 ef276208 e291195c d2f121dd 
+    ba174282 97718153 31a99ff6 7d62bf72 e1a3931d cc8a265a 0938d0ce d70d8016 
+    b478a53a 874c8d8a a5d54697 f22c10b9 bc5422c0 01506943 9ef4b2ef 6df8ecda 
+    f1e3b1ef df918f54 2a0b25c1 2619c452 100565d5 8210eac2 31cd2e
+  quit
+telnet timeout 5
+ssh stricthostkeycheck
+ssh timeout 5
+ssh version 2
+ssh key-exchange group dh-group14-sha256
+ssh 0.0.0.0 0.0.0.0 management
+console timeout 0
+threat-detection basic-threat
+threat-detection statistics access-list
+no threat-detection statistics tcp-intercept
+dynamic-access-policy-record DfltAccessPolicy
+username ApiClient password <removed>
+username admin password <removed>
+username challenge3 password <removed>
+!
+class-map inspection_default
+ match default-inspection-traffic
+!
+!
+policy-map type inspect dns preset_dns_map
+ parameters
+  message-length maximum client auto
+  message-length maximum 512
+  no tcp-inspection
+policy-map global_policy
+ class inspection_default
+  inspect ip-options 
+  inspect netbios 
+  inspect rtsp 
+  inspect sunrpc 
+  inspect tftp 
+  inspect xdmcp 
+  inspect dns preset_dns_map 
+  inspect ftp 
+  inspect h323 h225 
+  inspect h323 ras 
+  inspect rsh 
+  inspect esmtp 
+  inspect sqlnet 
+  inspect sip  
+  inspect skinny  
+  inspect snmp 
+policy-map type inspect dns migrated_dns_map_2
+ parameters
+  message-length maximum client auto
+  message-length maximum 512
+  no tcp-inspection
+policy-map type inspect dns migrated_dns_map_1
+ parameters
+  message-length maximum client auto
+  message-length maximum 512
+  no tcp-inspection
+!
+service-policy global_policy global
+prompt hostname context 
+no call-home reporting anonymous
+call-home
+ profile License
+  destination address http https://tools.cisco.com/its/service/oddce/services/DDCEService
+  destination transport-method http
+ profile CiscoTAC-1
+  no active
+  destination address http https://tools.cisco.com/its/service/oddce/services/DDCEService
+  destination address email callhome@cisco.com
+  destination transport-method http
+  subscribe-to-alert-group diagnostic
+  subscribe-to-alert-group environment
+  subscribe-to-alert-group inventory periodic monthly
+  subscribe-to-alert-group configuration periodic monthly
+  subscribe-to-alert-group telemetry periodic daily
+Cryptochecksum:b98fe7e35d91071df3833f0affa326af
+: end
+
+Cannot open disk0:/csco_config/97/bookmarks/index.ini
+
+------------------ export webvpn customization DfltCustomization stdout ------------------
+<external-portal>
+        <mode>disable</mode>
+        <url></url>
+        <method>get</method>
+        <preload-page-url><![CDATA[]]></preload-page-url>
+        <before-post-script><![CDATA[]]></before-post-script>
+        <wait-time>10</wait-time>
+        <use-smart-tunnel>no</use-smart-tunnel>
+        <post-param>
+            <name><![CDATA[]]></name>
+            <value><![CDATA[]]></value> 
+        </post-param>
+      </external-portal>
+
+------------------ show ak47 detailed ------------------
+
+instance 0001 0x00007f4f8607c210 (rtcli async executor process) arena *0x00007f4f8644f240 arena 0x00007f4f8607ed60 fiber count 2
+Arena 0x00007f4f8644f240 of 262144 bytes (2 blocks of size 131072), no size limit
+  Arena is dynamically allocated, not contiguous
+  Features: GroupMgmt: unset, MemDebugLog: unset
+Arena 0x00007f4f8607ed60 of 4471424 bytes (69 blocks of size 65536), no size limit
+  Arena is dynamically allocated, not contiguous
+  Features: GroupMgmt: unset, MemDebugLog: unset
+
+instance 0002 0x00007f4f600171f0 (aaa_shim_thread) arena 0x00007f4f60016bb0 fiber count 2
+Arena 0x00007f4f60016bb0 of 304000 bytes (4 blocks of size 76000), maximum 71303168
+  70999168 free bytes (100%; 934 blocks, zone 0)
+  Arena is dynamically allocated, not contiguous
+  Features: GroupMgmt: SET, MemDebugLog: unset
+
+instance 0003 0x00007f4f8003e100 (UserFromCert Thread) arena 0x00007f4f8003dfd0 fiber count 2
+Arena 0x00007f4f8003dfd0 of 532000 bytes (7 blocks of size 76000), no size limit
+  Arena is dynamically allocated, not contiguous
+  Features: GroupMgmt: unset, MemDebugLog: unset
+
+instance 0004 0x00007f4f80011be0 (netfs_thread_init) arena 0x00007f4f80011ab0 fiber count 2
+Arena 0x00007f4f80011ab0 of 726528 bytes (11 blocks of size 66048), no size limit
+  Arena is dynamically allocated, not contiguous
+  Features: GroupMgmt: SET, MemDebugLog: unset
+
+
+------------------ show startup-config errors ------------------
+
+INFO: converting 'fixup protocol dns maximum-length 512' to MPF commands
+ERROR: Inspect configuration of this type exists, first remove 
+that configuration and then add the new configuration
+INFO: converting 'fixup protocol ftp 21' to MPF commands
+INFO: converting 'fixup protocol h323_h225 1720' to MPF commands
+INFO: converting 'fixup protocol h323_ras 1718-1719' to MPF commands
+INFO: converting 'fixup protocol ip-options 1' to MPF commands
+INFO: converting 'fixup protocol netbios 137-138' to MPF commands
+INFO: converting 'fixup protocol rsh 514' to MPF commands
+INFO: converting 'fixup protocol rtsp 554' to MPF commands
+INFO: converting 'fixup protocol sip 5060' to MPF commands
+INFO: converting 'fixup protocol skinny 2000' to MPF commands
+INFO: converting 'fixup protocol smtp 25' to MPF commands
+INFO: converting 'fixup protocol sqlnet 1521' to MPF commands
+INFO: converting 'fixup protocol sunrpc 111' to MPF commands
+INFO: converting 'fixup protocol sunrpc_udp 111' to MPF commands
+INFO: converting 'fixup protocol tftp 69' to MPF commands
+INFO: converting 'fixup protocol sip udp 5060' to MPF commands
+INFO: converting 'fixup protocol xdmcp 177' to MPF commands
+
+------------------ console logs ------------------
+
+Message #1 : Message #2 : 
+total_reserved_mem = 0 
+Message #3 : 
+total_heapcache_mem = 0 
+Message #4 : total mem 33349779456 system 33744044032 kernel 134217728 image 0
+Message #5 : new 33215561728 old 33349779456 reserve 0 priv new 33349779456 priv old 33349779456
+Message #6 : 
+Compiled on Tue 28-Apr-20 08:50 PDT by builders
+Message #7 : max_free_size is 18874304
+Message #8 : 
+Total NICs found: 5
+Message #9 : en_vtun rev00 Backplane Tap Interface     @ index 04 MAC: 0000.0100.0001
+Message #10 : WARNING: Attribute already exists in the dictionary.
+Message #11 : 
+Message #12 : Cisco Adaptive Security Appliance Software Version 9.14(1)6 
+Message #13 : 
+Message #14 :   ****************************** Warning *******************************
+Message #15 :   This product contains cryptographic features and is
+Message #16 :   subject to United States and local country laws
+Message #17 :   governing, import, export, transfer, and use.
+Message #18 :   Delivery of Cisco cryptographic products does not
+Message #19 :   imply third-party authority to import, export,
+Message #20 :   distribute, or use encryption. Importers, exporters,
+Message #21 :   distributors and users are responsible for compliance
+Message #22 :   with U.S. and local country laws. By using this
+Message #23 :   product you agree to comply with applicable laws and
+Message #24 :   regulations. If you are unable to comply with U.S.
+Message #25 :   and local laws, return the enclosed items immediately.
+Message #26 : 
+Message #27 :   A summary of U.S. laws governing Cisco cryptographic
+Message #28 :   products may be found at:
+Message #29 :   http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+Message #30 : 
+Message #31 :   If you require further assistance please contact us by
+Message #32 :   sending email to export@cisco.com.
+Message #33 :   ******************************* Warning *******************************
+Message #34 : Cisco Adaptive Security Appliance Software, version 9.14
+Message #35 : Copyright (c) 1996-2020 by Cisco Systems, Inc.
+Message #36 : For licenses and notices for open source software used in this product, please visit
+Message #37 : http://www.cisco.com/go/asa-opensource
+
+Message #38 :                 Restricted Rights Legend
+Message #39 : Use, duplication, or disclosure by the Government is
+Message #40 : subject to restrictions as set forth in subparagraph
+Message #41 : (c) of the Commercial Computer Software - Restricted
+Message #42 : Rights clause at FAR sec. 52.227-19 and subparagraph
+Message #43 : (c) (1) (ii) of the Rights in Technical Data and Computer
+Message #44 : Software clause at DFARS sec. 252.227-7013.
+
+Message #45 :                 Cisco Systems, Inc.
+Message #46 :                 170 West Tasman Drive
+Message #47 :                 San Jose, California 95134-1706
+
+Message #48 : Keypair generation process begin. Please wait...
+Message #49 : 
+INFO: Power-On Self-Test in process.
+Message #50 : .Message #51 : .Message #52 : .Message #53 : .Message #54 : .Message #55 : .Message #56 : .Message #57 : .Message #58 : .Message #59 : .Message #60 : .Message #61 : .Message #62 : .Message #63 : .Message #64 : .Message #65 : .Message #66 : .Message #67 : .Message #68 : .Message #69 : .Message #70 : .Message #71 : .Message #72 : .Message #73 : .Message #74 : .Message #75 : .Message #76 : .Message #77 : .Message #78 : .Message #79 : .Message #80 : .Message #81 : .Message #82 : .Message #83 : .Message #84 : .Message #85 : .Message #86 : .Message #87 : 
+INFO: Power-On Self-Test complete.
+Message #88 : 
+INFO: Starting SW-DRBG health test...Message #89 : 
+INFO: SW-DRBG health test passed.
+Message #90 : Creating trustpoint "_SmartCallHome_ServerCA" and installing certificate...
+Message #91 : 
+Trustpoint CA certificate accepted.
+Message #92 : 
+Warning: ASAv platform license state is Unlicensed.
+Message #93 : Install ASAv platform license for full functionality.
+Message #94 : 
+Warning: ASAv platform license state is Unlicensed.
+Message #95 : Install ASAv platform license for full functionality.
+Message #96 : 
+Warning: ASAv platform license state is Unlicensed.
+Message #97 : Install ASAv platform license for full functionality.
+Message #98 : 
+Warning: ASAv platform license state is Unlicensed.
+Message #99 : Install ASAv platform license for full functionality.
+Message #100 : 
+Warning: ASAv platform license state is Unlicensed.
+Message #101 : Install ASAv platform license for full functionality.
+Message #102 : 
+Warning: ASAv platform license state is Unlicensed.
+Message #103 : Install ASAv platform license for full functionality.
+Message #104 : 
+Warning: ASAv platform license state is Unlicensed.
+Message #105 : Install ASAv platform license for full functionality.
+
